@@ -1,0 +1,9 @@
+{
+  "name": "carriersWeb-e2e",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/carriersWeb/carriersWeb-e2e/src",
+  "implicitDependencies": ["carriersWeb"],
+  "// targets": "to see all targets run: nx show project carriersWeb-e2e --web",
+  "targets": {}
+}
