@@ -1,0 +1,2048 @@
+{
+  "bego-phone-input": {
+    "phone_text": "Teléfono",
+    "introduce-valid-number": "Introduce un número válido",
+    "phone": "Teléfono"
+  },
+  "bego-select-component": {
+    "select": "Selecciona",
+    "empty-select": "Elemento está vacío"
+  },
+  "faqs": {
+    "general-questions": "preguntas generales",
+    "you-will-find-answers": "encontraras tus respuestas",
+    "more-questions": "más preguntas",
+    "about-the-order-process": "acerca del proceso"
+  },
+  "contact-support": {
+    "type-a-message": "Escribe un mensaje..",
+    "send": "Enviar",
+    "support": "Soporte",
+    "drag-files-in-here": "Arrastra tus archivos aquí"
+  },
+  "orders": {
+    "description": "Description",
+    "back": "Atrás",
+    "next-step": "Siguiente paso",
+    "create": "Orden creada exitosamente",
+    "create-order": "Crear Orden",
+    "continue-to-dropoff": "Continuar a Dropoff",
+    "phone_text": "Teléfono",
+    "cargo-labels": {
+      "single": "Mercancías",
+      "multiple": "Múltiples mercancías"
+    },
+    "cargo-weight": {
+      "title": "Define el peso por caja",
+      "subtitule": "(por regulación máximo 20 tons por caja)",
+      "unit": "Unidad",
+      "btn-save": "Guardar"
+    },
+    "title-pickup": "Recolección",
+    "title-dropoff": "Entrega",
+    "title-summary": "Resumen",
+    "title-invoice": "Factura",
+    "title-order_number": "Numero de orden",
+    "btn-step1": "Continuar",
+    "btn-step2": "Orden de Entrega",
+    "btn-step3": "Continuar",
+    "btn-step4": "Checkout",
+    "title-directions": "Dirección",
+    "btn-change-route-pickup": "Cambiar la ruta",
+    "btn-change-route-dropoff": "Cambiar la ruta",
+    "title-personal-info": "Información Personal",
+    "title-fullname": "Nombre completo",
+    "placeholder-fullname": "Ingresa tu nombre completo",
+    "placeholder-phone": "Ingresa tu número de teléfono",
+    "placeholder-mail": "Ingresa tu email",
+    "title-reference": "Referencia",
+    "placeholder-reference": "Ingresa tu referencia",
+    "title-cargo-info": "Información de carga",
+    "placeholder-rfc": "Ingresa tu RFC",
+    "placeholder-date": "No hay fecha",
+    "placeholder-time": "No hay horario",
+    "title-company_name": "Razon social",
+    "placeholder-company_name": "Ingresa la razon social",
+    "btn-add-weight": "Añadir Peso",
+    "btn-edit-weight": "Editar Peso",
+    "btn-edit": "Editar",
+    "btn-save": "Guardar",
+    "placeholder-start": "Inicio",
+    "placeholder-end": "Fin",
+    "txt-select-units": "Caja Tipo",
+    "txt-select-cargo": "Carga Tipo",
+    "txt-select": "Carga Tipo",
+    "btn-general": "General",
+    "btn-hazardous": "Peligrosa",
+    "choose-category": "Selecciona una categoría...",
+    "placeholder-hazard": "Selecciona código UN",
+    "btn-file": "Buscar archivos",
+    "txt-cargo": "Descripción de la carga",
+    "placeholder-cargo": "Escribe aquí ....",
+    "title-date-time": "Fijar la fecha y hora",
+    "txt-time": "Fijar la hora",
+    "label-from": "De",
+    "label-to": "a",
+    "placeholder-notes": "Notas adicionales",
+    "placeholder-un": "Número UN",
+    "title-valid-route": "Nota",
+    "txt-valid-route": "Esta ruta no se encuentra en nuestra lista de precios, pero puedes crearla y te contactaremos pronto con una cotización.",
+    "btn-cancel": "Cancelar",
+    "btn-done": "Hecho",
+    "invalid-email": "Email inválido",
+    "invalid-phone": "Numero de telefono invalido",
+    "rfc-not_found": "Item no encontrado",
+    "tax-registration_number": "Número de registro de impuestos",
+    "tax-country_of_residence": "País de residencia",
+    "hazardous-list": {
+      "class-1": "CLASS 1 - Sustancias u objetos explosivos",
+      "class-2": "CLASS 2 - Gases",
+      "class-3": "CLASS 3 - Líquidos inflamables",
+      "class-4": "CLASS 4 - Sólidos inflamables",
+      "class-5-1": "CLASS 5.1 - Agentes oxidantes",
+      "class-5-2": "CLASS 5.2 - Peróxidos orgánicos",
+      "class-6-1": "CLASS 6.1 - Materias tóxicas",
+      "class-6-2": "CLASS 6.2 - Materias infecciosas",
+      "class-7": "CLASS 7 - Materias radiactivas",
+      "class-8": "CLASS 8 - Materias corrosivas",
+      "class-9": "CLASS 9 - Materias y objetos peligrosos diversos"
+    },
+    "slct-input-cargo_goods": "Selecciona el tipo de mercancía",
+    "slct-input-packaging": "Selecciona tu embalaje",
+    "slct-input-hzrd_material": "Selecciona el tipo de carga peligrosa",
+    "slct-input-search": "Buscar ...",
+    "slct-input-wait": "Cargando Opciones ...",
+    "unit-details-list": {
+      "title": "Detalle De La Carga",
+      "sub-title": "Déjanos Saber Más Acerca De Tu Carga",
+      "slct-unit": "Selecciona el tipo de Unidad",
+      "qty": "Cantidad",
+      "description": "Descripcion",
+      "placeholder": "Escribe aquí ....",
+      "save": "Guardar"
+    },
+    "continue-modal-list": {
+      "cp-title": "Para generar carta porte:",
+      "cargo_goods": "Falta tipo de mercancía",
+      "hazardous_material": "Falta tipo de carga peligrosa",
+      "packaging": "Falta tipo de embalaje",
+      "pickupRFC": "Falta RFC del origen",
+      "dropoffRFC": "Falta RFC del destino",
+      "unit_type": "Falta tipo de unidad",
+      "cp-cancel": "Cancelar",
+      "cp-confirm": "Confirmar"
+    },
+    "upload-file": {
+      "label-browse": "Arrastra tu archivo",
+      "label-or": "o",
+      "btn-browse": "Selecciona tu archivo",
+      "label-max": "maximo"
+    },
+    "complete-modal": {
+      "title": "¡Orden lista!",
+      "description": "Su orden ha sido creada exitosamente",
+      "done-btn": "¡Asombroso!"
+    },
+    "prime": {
+      "no-vehicle": "Sin vehículo",
+      "walking": "Caminando"
+    },
+    "upload-multiple-orders": {
+      "name": "Nombre del archivo",
+      "labelBrowse": "Explorar su archivo",
+      "labelOr": "o",
+      "btnBrowse": "Seleccione Archivo",
+      "labelMax": "max",
+      "uploading": "Subiendo..."
+    },
+    "multiple-cargo": {
+      "instructions-title": "Instrucciones",
+      "instructions-txt": "Para subir tus múltiples mercancías, debes descargar la plantilla en Excel, la cual deberás llenar en su totalidad y subirlo.",
+      "excel-template": "Plantilla Excel"
+    }
+  },
+  "checkout": {
+    "description": "Descripción",
+    "title-checkout": "Checkout",
+    "txt-reference": "Referencia",
+    "title-emitter": "Informacion del Emisor",
+    "txt-order": "Orden",
+    "txt-pickup": "Recolección",
+    "txt-dropoff": "Entrega",
+    "txt-invoice": "Factura",
+    "title-invoice": "Información de Receptor",
+    "txt-address": "Dirección",
+    "txt-company": "Razon social",
+    "txt-tax_regime": "Regimen Fiscal",
+    "placeholder-fullname": "Nombre completo",
+    "placeholder-email": "Email",
+    "placeholder-phonenumber": "Teléfono Móvil",
+    "placeholder-address": "Dirección",
+    "placeholder-company": "Razon social",
+    "placeholder-rfc": "RFC",
+    "placeholder-cfdi": "Uso de CFDI",
+    "placeholder-tax_regime": "Regimen Fiscal",
+    "select-cfdi": "Selecciona un CFDI",
+    "select-tax": "Selecciona un Regimen Fiscal",
+    "edit": "Editar",
+    "unit": "Unidad",
+    "tons": "tons",
+    "units": "Unidades",
+    "txt-items": "Artículos",
+    "full-name": "Nombre",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "reference": "# Referencia",
+    "weight": "Peso de carga",
+    "cargo-type": "Tipo de carga",
+    "hazardous": "Peligrosa",
+    "date": "Fecha",
+    "time": "Hora",
+    "price-details": "Precios",
+    "insurance": "Seguro",
+    "costums": "Aduana",
+    "cruce": "Cruce",
+    "subtotal": "Subtotal",
+    "taxes": "Impuestos",
+    "total-price": "Total",
+    "placeholder-cargo": "Descripción del cargo",
+    "placeholder-notes": "Notas Extra",
+    "placeholder-file_cer": "Selecciona tu certificado (CSD)",
+    "placeholder-file_key": "Selecciona tu llave",
+    "btn-file_cer": "Certificado de cello digital (.cer)",
+    "btn-file_key": "LLave de cello digital (.key)",
+    "placeholder-password": "Contraseña del Certificado",
+    "btn-continue": "Continuar",
+    "btn-retry": "Reintentar",
+    "btn-submit": "Crear Orden",
+    "upload": "Subir",
+    "txt-reference-payment": "Referencia",
+    "txt-account-payment": "Clabe Interbancaria",
+    "txt-company-payment": "Razón Social",
+    "value-account-payment": "002180701648306493",
+    "txt-bank": "Banco",
+    "value-company-payment": "BSILIENCE SA DE CV",
+    "title-valid-route": "Nota",
+    "txt-valid-route": "Esta orden será operada por uno de nuestros representantes, te contactaremos cuando esté lista.",
+    "txt-save": "Guardar",
+    "to-define": "Por definir",
+    "payment-method": "Método de pago",
+    "transfer": "Transferencia",
+    "alerts": {
+      "order-updated": "Orden actualizada.",
+      "title-cancel-order": "Aviso",
+      "txt-cancel-order": "¿Estás seguro que deseas cancelar la orden?",
+      "title-order-placed": "¡Pedido hecho!",
+      "txt-order-placed": "Tu pedido ha sido creado con éxito, ahora podrás monitorearlo.",
+      "btn-order-placed": "Ver orden",
+      "title-user-verified": "Aviso",
+      "txt-user-verified": "Tus documentos no han sido verificados, tu orden se guardó en borradores. Favor de intentar hasta que recibas una confirmación de validación.",
+      "title-valid-invoice": "Datos incompletos",
+      "txt-valid-invoice": "Favor de completar los campos de tu factura.",
+      "verify-user-title": "Antes de completar la orden debemos verificar tu cuenta",
+      "verify-user-body": "Completa la documentación en la página de perfil",
+      "error-orderid": "El ID de la Orden no es válido",
+      "error-something": "Algo ha salido mal: ",
+      "error-missing-orderId": "No se encuentra el order Id",
+      "fileSize": "el archivo es demasiado pesado",
+      "fileType": "el tipo de archivo debe ser .cer o .key",
+      "emitter-validated": "Emisor Creado",
+      "emitter-validated-fail": "Emisor no validado",
+      "emitter-create": "Para crear el emisor: ",
+      "emitter-tax_regime": "Falta el régimen fiscal del emisor",
+      "receiver-stamp": "Para generar carta porte:",
+      "receiver-address": "Falta la dirección del receptor",
+      "receiver-company": "Falta la razón social del receptor",
+      "receiver-rfc": "Falta el RFC del receptor",
+      "receiver-cfdi": "Falta el CFDI del receptor",
+      "receiver-tax_regime": "Falta el régimen fiscal del receptor"
+    },
+    "insurance-modal": {
+      "title-insurance": "Total",
+      "txt-insurance": "Escribe el precio total del servicio",
+      "txt-insurance-taxes": "(Antes de impuestos)",
+      "deferred-PUE": "Pago en una sola exhibición",
+      "deferred-PPD": "Pago en parcialidades",
+      "btn": "Siguiente"
+    },
+    "agent-modal": {
+      "title-agent": "¿Quieres Agente y Cruce?",
+      "txt-agent": "¿Cómo te gustaría continuar?",
+      "btn-first": "Agregar todo por $",
+      "btn-second": "Agregar solo cruce $",
+      "btn-third": "Continuar sin ambos",
+      "txt-agent-prices": "(Precios en USD)"
+    },
+    "stepper-btns": {
+      "continue-to-emitter": "Continuar a Receptor",
+      "continue-to-invoice": "Continuar a el Resumen",
+      "summary": "Crear Orden"
+    },
+    "skip": "Omitir",
+    "next": "Siguiente",
+    "label-total-price": "Total:",
+    "summary": "Resumen",
+    "invoice": "Receptor",
+    "emitter": "Emisor",
+    "invalid_rfc": "RFC invalido",
+    "preview": "Factura",
+    "invoice-preview": "previo de Factura",
+    "merchandise_type": "Tipo de Mercancia",
+    "file_size_error": "El archivo es demasiado pesado"
+  },
+  "history": {
+    "title": "Historial de viajes",
+    "search": "Buscar por dirección...",
+    "total_earnings": "Ganancias totales",
+    "no-comments": "Sin Comentarios",
+    "upcoming_detail_title": "Próximo",
+    "completed_detail_title": "Completado",
+    "past_detail_tile": "Pasado",
+    "btn-report": "Reporta un problema en la orden",
+    "to-define": "Por definir",
+    "tabs": {
+      "upcoming": "Próximas",
+      "completed": "Completadas",
+      "past": "Pasadas"
+    },
+    "btns": {
+      "prev": "ATRÁS",
+      "next": "SIGUIENTE"
+    },
+    "order-status": {
+      "order-created": "Orden Creada",
+      "order-accepted": "Orden Aceptada",
+      "pickup": "Recolección",
+      "dropoff": "Entrega",
+      "started-by": "Empezado Por",
+      "completed": "Completedo",
+      "estimated-pickup-time": "Hora Estimada de Recolección",
+      "estimated-dropoff-time": "Hora Estimada de Entrega",
+      "delivery-started": "Entrega Iniciada",
+      "delivery-completed": "Entrega Completada",
+      "order-completed": "Orden Completada"
+    },
+    "btn_start_driving": "Comenzar",
+    "history_detail": {
+      "reference": "Referencia",
+      "edit_order": "Editar",
+      "order": "Orden",
+      "pickup_info_tab": "Datos de recolección",
+      "dropoff_info_tab": "Datos de entrega",
+      "pickup": "Recolección",
+      "dropoff": "Entrega ",
+      "btn_track": "Rastrea",
+      "order_info_tab": "Documentación de la orden",
+      "photos": "Fotos",
+      "signature": "Firma",
+      "aditional_details": "Detalles Adicionales",
+      "insurance": "Seguro",
+      "unit": "Unidades",
+      "taxes": "Impuestos",
+      "customs": "Agente Aduanal",
+      "cruce": "Cruce",
+      "extra": "Costos Adicionales",
+      "hazardous_cargo": "Carga Peligrosa",
+      "general_cargo": "Carga General",
+      "truck": "Unidad",
+      "trailer": "Carga",
+      "subtotal": "Subtotal",
+      "total_price": "Precio Total",
+      "select": "Seleccionar",
+      "pending": "Pendiente..."
+    },
+    "driver_assignment": {
+      "title": "Asignado a",
+      "search": "Buscar...",
+      "btn_confirm": "Confirmar"
+    },
+    "truck_assignment": {
+      "title": "Camión asignado",
+      "search": "Buscar...",
+      "btn_confirm": "Confirmar"
+    },
+    "overview": {
+      "title": "Asignado a",
+      "label_driver": "Conductor",
+      "label_vehicle": "Unidad",
+      "label_trailer": "Caja",
+      "btn-edit": "Editar",
+      "btn-submit": "Enviar",
+      "btn-confirm": "Confirmar"
+    },
+    "tracking": {
+      "title": "Ubicación de la carga",
+      "distance": "Distancia",
+      "pickup": "Recolección",
+      "dropoff": "Entrega",
+      "time_pickup": "Hora estimada",
+      "time_dropoff": "Hora estimada",
+      "share_tracking_message1": "Para poder rastrear tu carga dale clic ",
+      "share_tracking_message2": " .",
+      "share_tracking_button": "aquí"
+    },
+    "external_tracking": {
+      "title": "Invitación de Tracking",
+      "txt_driver": "Nombre",
+      "txt_name": "Nombre completo",
+      "btn_send": "Enviar",
+      "toast_message": "Invitaciones enviadas correctamente"
+    },
+    "alerts": {
+      "driver_unavailable": {
+        "title": "Importante",
+        "message": "Estás seleccionando a un operador que está ocupado durante este tiempo. ¿Deseas continuar?"
+      },
+      "truck_unavailable": {
+        "title": "Importante",
+        "message": "Estás seleccionando un camión que está ocupado durante este tiempo. ¿Deseas continuar?"
+      },
+      "trailer_unavailable": {
+        "title": "Importante",
+        "message": "Estás seleccionando una caja que está ocupada durante este tiempo. ¿Deseas continuar?"
+      },
+      "order_changed": {
+        "title": "Servicio modificado",
+        "message": "El servicio ha sido modificado"
+      }
+    },
+    "no-orders-yet": {
+      "upcoming": {
+        "title": "Aún no hay órdenes",
+        "body": "Aún no haz realizado ningún pedido. Cuando lo hagas, su estado aparecerá aquí."
+      },
+      "completed": {
+        "title": "No hay órdenes completadas",
+        "body": "Los pedidos completados aparecerán aquí."
+      },
+      "past": {
+        "title": "No hay órdenes pasadas",
+        "body": "Cuando los pedidos lleven cierto tiempo de haber sido completados, aparecerán aquí."
+      },
+      "call-to-action": "Crear Orden"
+    },
+    "status-badges": {
+      "stand-by": "Pendiente",
+      "in-progress": "En curso",
+      "completed": "Completado"
+    },
+    "consignment_note": {
+      "edit_consignment_note": "Editar carta porte",
+      "order": "Orden",
+      "pickup": "Recolección",
+      "dropoff": "Entrega",
+      "save_changes": "Guardar cambios",
+      "info_updated": "La información para la carta porte fue actualizada",
+      "cannot_edit": "Aún no puedes editar",
+      "complete_invoice": "Completar factura",
+      "price": "Precio",
+      "stamp": "Timbrar",
+      "stamp_request": "Se solicitó la creación de la carta porte",
+      "invoice": "Factura",
+      "invoice_preview": "Previo de factura"
+    }
+  },
+  "fiscal-documents": {
+    "cards-instructions": "Arrastra un archivo en cada tarjeta o haz clic en ellas para elegir un archivo.",
+    "txt-required-inputs": "Las cartas con un '*' son obligatorias",
+    "select-document": "Selecciona un item",
+    "txt-select-item-required": "Los items con un '*' son obligatorios",
+    "request-verification": "Solicitar verificación",
+    "drag-files": "Arrastra archivo aquí o",
+    "browse": "búscalo",
+    "view-file": "Ver archivo",
+    "remove-file": "Eliminar archivo",
+    "cancel": "Cancelar",
+    "delete-file-question": "Seguro que quieres eliminar el archivo",
+    "file": "",
+    "uploading": "Subiendo",
+    "seconds-left": "seconds left",
+    "txt1-delete-file1": "¿Estás seguro que quiere eliminar el archivo",
+    "txt1-delete-file2": "?",
+
+    "upload-files": {
+      "txt_fiscal_documents": "Documentos Fiscales",
+      "txt_browse": "Buscar archivos",
+      "btn_upload": "Subir",
+      "txt_select": "Selecciona el documento",
+      "txt_certificate_inc": "Acta Constitutiva",
+      "txt_power": "Poder del Representante Legal",
+      "txt_note_power": "Poder notarial (en caso que nombre no aparezca en el acta)",
+      "txt_id": "Identificación Oficial con Foto",
+      "txt_note_id": "Identificación Oficial del Representante Legal",
+      "txt_address": "Comprobante de Domicilio",
+      "txt_note_address": "Hasta 3 meses de antigüedad",
+      "txt_tax": "Constancia de Situación Fiscal",
+      "txt_note_tax": "Constancia de Situación Fiscal, hasta 3 meses de antigüedad",
+      "txt_compliance": "Opinión de Cumplimiento de Obligaciones Fiscales",
+      "txt_note_compliance": "Opinión de Cumplimiento de Obligaciones Fiscales, hasta 3 meses de antigüedad",
+      "txt_sat_address": "Verificación Domicilio SAT",
+      "txt_note_sat_address": "En caso de no tener otro comprobante, proveer Verificación de Domicilio del SAT",
+      "txt_license": "Licencia de Manejo",
+      "txt_note_license": "Licencia de Manejo de cada Operador, en caso de flotillas grandes, solamente 3",
+      "txt_insurance": "Póliza de Seguro",
+      "txt_note_insurance": "Póliza de Seguro de unidades, en caso de flotillas grandes, solamente 3",
+      "txt_file_removed": "Documento Eliminado",
+      "txt_file_saved": "Documento Guardado",
+      "txt_max": "Máximo 5MB'",
+      "txt_cancel": "Cancelar",
+      "txt_all_files_uploaded": "Todos los archivos ya han sido subidos",
+      "txt_finish": "Finalizar",
+      "documentation": "Documentación"
+    },
+    "required-verification-modal": {
+      "title": "Se solicitó verificación de cuenta",
+      "body": "Tu cuenta estará verificada una vez hayamos checado los documentos subidos"
+    }
+  },
+  "sat-certification": {
+    "order_tab_label": "SAT",
+    "label_cer": "Certificado del sello digital (.cer)",
+    "label_key": "Llave del sello digital (.key)"
+  },
+  "profile": {
+    "account": {
+      "txt_orders": "Órdenes",
+      "txt_personal_details": "Datos Personales",
+      "btn_edit": "EDITAR",
+      "txt_fiscal_consistency": "Documentos Fiscales",
+      "txt_fiscal_documents": "Documentos Fiscales",
+      "txt_files": "documentos",
+      "txt_address": "Dirección",
+      "txt_company": "Compañía",
+      "txt_picture": "Foto de perfil actualizada",
+      "txt_info_address": "¿Dónde vives?",
+      "btn_picture": "Tomar foto",
+      "btn_gallery": "Galería",
+      "btn_cancel": "Cancelar",
+      "account": "Cuenta",
+      "upload-btn": "Subir",
+      "delete-btn": "Eliminar",
+      "take-pic": "Tomar foto",
+      "profile-pic-less-5mb": "La foto de perfil debe de pesar menos de 5mb",
+      "pic-not-uploaded": "La foto de perfil no ha sido actualizada",
+      "txt-delete-profile-pic": "¿Estás seguro que quieres eliminar tu foto de perfil?",
+      "txt-delete-profile-pic-title": "Eliminar foto de perfil",
+      "delete-profile-pic-btn": "Ok",
+      "cancel-deletion-btn": "Cancelar",
+      "txt-role": "Rol",
+      "txt-fleet": "Flota",
+      "txt-driver": "Conductor",
+      "txt-manager": "Manager",
+      "txt-driver-manager": "Driver Manager"
+    },
+    "edit": {
+      "txt_edit_profile": "Editar Perfil",
+      "txt_name": "Nombre completo",
+      "txt_phone": "Teléfono Móvil",
+      "txt_email": "Correo Electrónico",
+      "txt_company": "Companía",
+      "btn_save": "Guardar",
+      "txt_saved": "Tus cambios han sido guardados.",
+      "txt_address_not_found": "Dirección no encontrada..."
+    },
+    "sat": {
+      "save": "Enviar archivos",
+      "select-tax-regime": "Seleccione el regimen fiscal"
+    },
+    "upload-files": {
+      "txt_fiscal_documents": "Documentos Fiscales",
+      "txt_browse": "Buscar archivos",
+      "btn_upload": "Subir",
+      "txt_select": "Selecciona el documento",
+      "txt_certificate_inc": "Acta Constitutiva",
+      "txt_power": "Poder del Representante Legal",
+      "txt_note_power": "Poder notarial (en caso que nombre no aparezca en el acta)",
+      "txt_id": "Identificación Oficial con Foto",
+      "txt_note_id": "Identificación Oficial del Representante Legal",
+      "txt_address": "Comprobante de Domicilio",
+      "txt_note_address": "Hasta 3 meses de antigüedad",
+      "txt_tax": "Constancia de Situación Fiscal",
+      "txt_note_tax": "Constancia de Situación Fiscal, hasta 3 meses de antigüedad",
+      "txt_compliance": "Opinión de Cumplimiento de Obligaciones Fiscales",
+      "txt_note_compliance": "Opinión de Cumplimiento de Obligaciones Fiscales, hasta 3 meses de antigüedad",
+      "txt_file_removed": "Documento Eliminado",
+      "txt_file_saved": "Documento Guardado",
+      "txt_max": "Máximo 5MB'",
+      "txt_cancel": "Cancelar",
+      "txt_all_files_uploaded": "Todos los archivos ya han sido subidos",
+      "txt_finish": "Finalizar"
+    },
+    "verification": {
+      "txt_enter": "Introduce",
+      "txt_code": "código de seguridad",
+      "txt_we_sent": "Por favor introduce el código de seguridad que te hemos enviado",
+      "txt_resend": "Puedes enviar",
+      "txt_after": "un nuevo código en",
+      "btn_resend": "Enviar código nuevo",
+      "txt_verify": "Verificar",
+      "txt_cancel": "Cancelar"
+    },
+    "history": {
+      "txt_history": "Historial"
+    }
+  },
+  "header": {
+    "menu": {
+      "title": "Menú",
+      "shippers": "Cargadores",
+      "carriers": "Transportistas",
+      "about": "Nosotros",
+      "contact": "Contáctanos"
+    },
+    "btn-en": "EN",
+    "btn-es": "ES"
+  },
+  "location": {
+    "title": "Tipo de orden",
+    "label_pickup": "Recolección",
+    "label_dropoff": "Entrega",
+    "label_pin": "Fijar la ubicación en el mapa",
+    "btn-home": "Casa",
+    "btn-work": "Trabajo",
+    "placeholder": "Introduce destino",
+    "txt_invalidDriection": "Por favor se más específico en tu dirección.",
+    "location-not-enabled": "Localización no habilitada",
+    "txt-address-not-found": "No se encontró la dirección",
+    "btn-order": "Crear Orden"
+  },
+  "alerts": {
+    "contact": {
+      "success-email": "Gracias! Le daremos una respuesta en las próximas 48 horas",
+      "fields-required": "Todos los campos son requeridos"
+    }
+  },
+  "links": {
+    "terms": "terminos-condiciones",
+    "privacy": "aviso-privacidad"
+  },
+  "shippers": {
+    "customs-agent": {
+      "title": "Agente Aduanal",
+      "description": "Simplifica tus costos con nuestro agente aduanal de tarifa fija, y protege tu carga con seguro. Todo en el mismo lugar y con una sola factura.",
+      "contact": "Contáctanos"
+    },
+    "description": {
+      "title-first-line": "Un equipo comprometido,",
+      "title-second-line": "enfocado en lo digital.",
+      "description": "Tenemos el apoyo de una gran red de transportistas y operadores especializados en cruce fronterizo, certificados en CTPAT por el CBP, que pueden transportar tus bienes en México e ingresarlos a Estados Unidos. Nuestro equipo evalúa a cada miembro de nuestra red para garantizar que sus vehículos y procesos operan con los más altos estándares de calidad y seguridad para gestionar su carga."
+    },
+    "features": {
+      "title": "Be Everywhere",
+      "first-list": "Estar en todas partes/ en todo lugar/ en cualquier lugar, con nuestro sistema de seguimiento/localización en tiempo real, monitorea tu carga desde su salida hasta el destino final.",
+      "second-list": "Ahorra tiempo y mantén a tu equipo informado, al compartir información de cada servicio con tu red (operaciones, clientes, etc.) en todo momento.",
+      "third-list": "Recibe notificaciones en cada paso a través de nuestra aplicación y vía SMS.",
+      "fourth-list": "Reduce costos e ineficiencias relacionadas con disponibilidad de transporte, y planea tus operaciones de acuerdo a tus necesidades."
+    },
+    "title": "Cargadores",
+    "description-shippers": "Aumenta tus ingresos y reduce los kilómetros sin carga, encontrándola cerca de tu ubicación, sin necesidad de regatear."
+  },
+  "carries": {
+    "drivers-features": {
+      "title-first-line": "Encuentra",
+      "title-second-line": "nueva carga reduciendo los",
+      "title-third-line": "retornos vacíos.",
+      "description": "BeGo te conecta, a ti y a tu flota, con la carga más cercana disponible, sin necesidad de regatear. Nuestra tecnología encuentra la mejor carga para ti, basada en tu futura localización y disponibilidad. No tienes porqué viajar con espacio vacío."
+    },
+    "drivers-roles": {
+      "title": "Gestiona tu flota.",
+      "subtitle-driver": "Conductor",
+      "txt-driver": "Únete a una flota y recibe servicios basados en /de acuerdo a tu ubicación.",
+      "subtitle-driver-manager": "Conductor/Administrador",
+      "txt-driver-manager": "Opera servicios y aumenta la visibilidad de tu flota. Gestiona todos tus servicios en el mismo lugar.",
+      "subtitle-manager": "Administrador",
+      "txt-manager": "Asigna servicios de acuerdo a la ubicación o al flujo de trabajo. Monitorea a los operadores, servicios BOL y recibe pruebas de entregas en el mismo lugar."
+    },
+    "driver-screenshots": {
+      "title-phone-calls": "Sin llamadas",
+      "txt-phone-calls": "Recibe y acepta servicios, las 24 horas del día, sin llamadas telefónicas.",
+      "title-paperwork": "Sin Papeleo",
+      "txt-paperwork": "Monitorea y Recibe toda la información relevante en un solo lugar. Siempre accesible.",
+      "title-quickpay": "BeGo QuickPay",
+      "txt-quickpay": "Crea y comparte evidencias de entregas en tiempo real y obtén acelera pagos.",
+      "txt-mood": "Escoje tu estado de ánimo",
+      "title-assign": "Crea y Asigna",
+      "txt-assign": "Comparte la experiencia y tecnología con tus operadores y clientes existentes. Monitorea todas las operaciones/trabajos/servicios/ viajes/ desde una sola aplicación.",
+      "title-analytics": "Obtén Reportes de tus Estadísticas",
+      "txt-analytics": "Incrementa la visibilidad del desempeño de tu flota y optimiza los costos de operación.",
+      "title-services": "Servicios de BeGo",
+      "txt-services": "Recibe nuevas cargas y asignalas con un solo clic."
+    },
+    "title": "Transportistas",
+    "description": "Aumenta tus ingresos y reduce los kilómetros sin carga, encontrándola cerca de tu ubicación, sin necesidad de negociar el precio."
+  },
+  "about": {
+    "grid": {
+      "title": "Cambia el Status Quo, donde:",
+      "txt-top-first": "Los camiones recorren",
+      "txt-middle-first": "de las millas,",
+      "txt-bottom-first": "vacíos",
+      "txt-top-second": "Los transportistas pagan",
+      "txt-bottom-second": "más debido a ineficiencias",
+      "txt-bottom-third": "promedio para encontrar carga",
+      "txt-top-fourth": "Cubrimos mas de",
+      "txt-bottom-fourth": "rutas",
+      "txt-top-fifth": "Pago",
+      "txt-middle-fifth": "inmediato",
+      "txt-bottom-fifth": "de proveedores"
+    },
+    "investors": {
+      "title-first-line": "Confían",
+      "title-second-line": "en nosotros"
+    },
+    "who-are-we": {
+      "txt-contact": "CONTÁCTANOS",
+      "title": "Un equipo apasionado, vinculado a lo digital",
+      "first-description": "Nuestra visión es utilizar la tecnología para inspirar y mejorar la vida diaria de las personas dedicadas al comercio.",
+      "second-description": "Fundada en Silicon Valley, California. BeGo combina 15 años de experiencia con algoritmos de inteligencia artificial con el propósito de enlazar carga existente con conductores disponibles, de la manera más eficiente en el mercado actual."
+    }
+  },
+  "contact": {
+    "title-first-line": "Nos encantaría ",
+    "title-second-line": "saber más ",
+    "title-third-line": "acerca de ti",
+    "txt-location": "¿CÓMO LLEGAR?",
+    "btn-location": "Click aquí",
+    "label-full-name": "Nombre completo",
+    "label-phone": "Número de teléfono",
+    "label-email": "Correo electrónico",
+    "label-type-user": "Tipo de usuario",
+    "option-owner": "Socio - Conductor",
+    "option-driver": "Driver - Usuario",
+    "option-shipper": "Transportista - Buscando portador FTL",
+    "label-message": "Mensaje",
+    "btn-submit": "ENVIAR"
+  },
+  "footer": {
+    "header-first-line": "Nos Encantaría",
+    "header-second-line": "Saber Más Acerca De Tí",
+    "btn-join": "ÚNETE",
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad"
+  },
+  "draft": {
+    "title": "Borradores",
+    "title-delete": "Borrar",
+    "txt-delete": "¿Estás seguro? Esta acción es permanente.",
+    "btn-cancel": "Cancelar",
+    "txt-search": "Buscar",
+    "txt-filter": "Filtro",
+    "label_pickup": "Recolección",
+    "label_dropoff": "Entrega",
+    "btn-order": "Ir a Orden",
+    "no-drafts-title": "No hay borradores aún",
+    "no-drafts-txt": "Aún no has hecho ningún borrador por completo. Cuando lo hagas, su estado aparecerá aquí.",
+    "no-results": "Sin resultados"
+  },
+  "menu": {
+    "home": "Inicio",
+    "drafts": "Borradores",
+    "fleet": "Flotilla",
+    "history": "Historial",
+    "payments": "Pagos",
+    "invoice": "Facturas",
+    "support": "Soporte",
+    "faq": "FAQs",
+    "tags": "Tags",
+    "terms-conditions": "T & C",
+    "log-out": "Salir",
+    "modal-title": "Impulsa tu flotilla o equipo con BeGo Black.",
+    "modal-waiting-title": "¡BeGo Black en proceso!",
+    "modal-waiting-p": "Tu cuenta BeGo Black está en proceso, te avisaremos cuando esté lista",
+    "modal-waiting-btn": "Asombroso",
+    "slide1": "Interactúa con tu equipo a través de SMS y notificaciones push en la aplicación.",
+    "slide2": "Identifique las áreas donde sus equipos dedican más tiempo a sus actividades utilizando nuestros informes de polígonos y mapas de calor.",
+    "slide3": "Mejora la seguridad de tu equipo con nuestro botón de pánico para cualquier emergencia.",
+    "free-trial-btn": "Comienza tu prueba gratis",
+    "free-trial-btn-upgraded": "Suscríbete a BeGo Black",
+    "free-trial-title": "¿Estás seguro de que quieres probar BeGo Black de forma gratuita?",
+    "free-trial-title-upgraded": "¿Estás seguro de que quieres suscribirte a BeGo Black?",
+    "free-trial-confirm": "Confirmar",
+    "free-trial-cancel": "Cancelar",
+    "successful-title": "¡Empecemos!",
+    "successful-long-text": "Su prueba gratuita comienza ahora, ha desbloqueado nuestras funciones principales. Ahora puedes descubrir una nueva forma de gestionar tu equipo.",
+    "successful-text-upgraded": "Su suscripción comienza ahora, ha desbloqueado nuestras funciones principales. Ahora puedes descubrir una nueva forma de gestionar tu equipo.",
+    "successful-short-text": "Después de 30 días de tu prueba gratis, tu plan será cancelado",
+    "successful-btn": "¡Vamos!",
+    "error-title": "Oops!",
+    "error-text": "Ocurrió un error al intentar suscribirte",
+    "close-btn": "Cerrar"
+  },
+  "errors": {
+    "timeout": {
+      "title": "Error código: timeout",
+      "body": "Favor de continuar más tarde",
+      "ok": "ok"
+    }
+  },
+  "invoice": {
+    "invoices": {
+      "title": "Facturas",
+      "filters": "Filtros",
+      "series": "Series",
+      "emisor-btn": "Emisores",
+      "new-invoice": "Nueva Factura",
+      "template-placeholder": "Buscar Template",
+      "template-open": "Abrir Template",
+      "template-new": "Nuevo Template",
+      "noemisor-title": "Atención",
+      "noemisor-message": "Se debe dar de alta a un Emisor antes de comenzar a Facturar",
+      "noemisor-confirm": "Crear ahora"
+    },
+    "invoice-table": {
+      "emision": "Emisión",
+      "emisor": "Emisor",
+      "receptor": "Receptor",
+      "serie": "Serie",
+
+      "tipo": "Tipo",
+      "status": "Status",
+      "subtotal": "Subtotal",
+      "total": "Total",
+      "items-per-page": "Resultados por Página",
+      "showing": "Mostrar",
+      "of": "de",
+      "prev": "atrás",
+      "next": "siguiente",
+      "edit-invoice": "Editar Factura",
+      "view-details": "Ver detalles",
+      "carta-porte": "Carta Porte",
+      "duplicate": "Duplicar",
+      "preview": "Vista Previa",
+      "download-pdf": "Descargar PDF",
+      "download-pdf-driver": "Descargar PDF Driver",
+      "download-xml": "Descargar XML",
+      "download-acuse": "Descargar Acuse",
+      "send-by-email": "Enviar por Correo",
+      "cancel-invoice": "Cancelar Factura",
+      "delete-invoice": "Eliminar Factura",
+      "preview-error": "Error al generar vista previa",
+      "delete-title": "Atención",
+      "delete-message": "¿Estas seguro que deseas eliminar esta Factura? Esta acción no se puede deshacer.",
+      "delete-success": "Factura borrada!",
+      "delete-error": "Error borrando Factura"
+    },
+    "table": {
+      "plataforma": "",
+      "fecha_emision": "Emisión",
+      "folio": "Folio",
+      "status_": "Estatus",
+      "emisor_": "Emisor",
+      "receptor_": "Receptor",
+      "serie": "Serie",
+      "serie_label": "Serie",
+      "tipo": "Tipo",
+      "status": "Status",
+      "subtotal": "Subtotal",
+      "subtotal_": "Subtotal",
+      "total": "Total",
+      "total_": "Total",
+      "metodo_de_pago": "Metodo Pago",
+      "status_pago": "Estado Pago",
+      "select_row": " ",
+      "selectRow": " "
+    },
+    "filters": {
+      "apply": "Aplicar",
+      "fechas": "Fechas",
+      "inicio": "Inicio",
+      "final": "Final",
+      "emisor": "Emisor",
+      "emisor-placeholder": "Buscar por Nombre o RFC",
+      "receptor": "Receptor",
+      "receptor-placeholder": "Buscar por Nombre o RFC",
+      "tipo-comprobante": "Tipo de Comprobante",
+      "tipo-comprobante-placeholder": "Todos",
+      "uuid-placeholder": "Buscar por UUID",
+      "metodo-de-pago": "Metodo de Pago"
+    },
+    "edit": {
+      "receptor": "Receptor",
+
+      "rfc": "RFC",
+      "rfc-placeholder": "Ingresa el RFC de tu cliente",
+      "no-results": "No se encontraron resultados",
+
+      "nombre": "Nombre o Razón social",
+      "nombre-placeholder": "Ingresa la Razón Social de tu cliente",
+
+      "usocfdi": "Uso de CFDI",
+      "usocfdi-placeholder": "Selecciona el uso del CFDI",
+      "usocfdi-placeholder-2": "Ingresa un RFC de cliente válido",
+      "type-to-search": "Escribe para buscar..",
+
+      "direccion": "Dirección",
+      "direccion-placeholder": "Seleciona una dirección",
+      "direccion-placeholder-2": "Ingresa un receptor válido",
+      "direccion-placeholder-3": "No se encontraron direcciones guardadas",
+      "direccion-new": "Nueva dirección",
+      "direccion-edit": "Editar direcciones",
+      "loading": "Cargando...",
+
+      "addr-nombre": "Nombre Sucursal",
+      "addr-nombre-placeholder": "Ingresa el nombre de la Sucursal",
+
+      "addr-calle": "Calle",
+      "addr-no-ext": "No. Exterior",
+      "addr-no-int": "No. Interior",
+      "addr-pais": "País",
+      "addr-estado": "Estado",
+      "addr-municipio": "Municipio",
+      "addr-localidad": "Localidad",
+      "addr-cp": "Código Postal",
+      "addr-colonia": "Colonia",
+      "addr-colonia-placeholder-2": "Ingresa un código postal válido",
+      "addr-email": "Correo electrónico",
+      "addr-addr": "Dirección",
+      "addr-addr-placeholder": "Introduce tu destino",
+
+      "emisor": "Emisor",
+      "emisor-btn-new": "Nuevo Emisor",
+
+      "rfc-emisor": "RFC",
+      "rfc-emisor-placeholder": "Ingresa el RFC emisor",
+      "rfc-emisor-new": "Registrar Emisor",
+      "rfc-parent": "RFC Padre",
+
+      "nombre-emisor": "Nombre o Razón social",
+      "nombre-emisor-placeholder": "Ingresa la Razón Social del emisor",
+
+      "lugar-expedicion": "Lugar de Expedición (Matriz o Sucursal)",
+      "lugar-expedicion-placeholder": "Selecciona el Lugar de Expedición",
+      "lugar-expedicion-placeholder-2": "Selecciona un emisor válido",
+      "lugar-expedicion-placeholder-3": "No se encontraron lugares de expedición guardados",
+      "emisor-direccion-new": "Nueva sucursal",
+      "emisor-direccion-edit": "Editar sucursales",
+
+      "regimen": "Régimen fiscal",
+      "regimen-placeholder": "Selecciona un Régimen fiscal",
+      "regimen-placeholder-2": "Ingresa un RFC emisor válido",
+      "regimen-placeholder-3": "Ingresa un RFC de cliente válido",
+
+      "tipo-comprobante": "Tipo de comprobante",
+      "moneda": "Moneda",
+      "tipo-de-cambio": "Tipo de cambio",
+      "metodo-pago": "Método de pago",
+      "forma-pago": "Forma de pago",
+
+      "info": "Información Extra",
+      "info-placeholder": "Información Extra (máx 5000 caractéres)",
+
+      "precio": "Precio",
+
+      "subtotal": "Total",
+
+      "conceptos": "Conceptos",
+      "conceptos-edit": "Productos/Servicios",
+
+      "concepto-nombre": "Producto o servicio",
+      "concepto-nombre-placeholder": "Ingresa tu producto o servicio",
+      "concepto-cve_sat": "Descripción SAT",
+      "concepto-unidad-medida": "Unidad de medida",
+      "concepto-precio": "Precio unitario",
+      "concepto-cantidad": "Cantidad",
+      "concepto-descuento": "Descuento",
+      "concepto-descripcion": "Descripción del producto o servicio",
+      "concepto-importe": "Importe",
+      "concepto-total": "Total concepto",
+      "concepto-agregar": "Agregar concepto",
+      "concepto-guardar": "Guardar concepto",
+
+      "impuestos": "Impuestos",
+      "impuesto": "Impuesto",
+      "impuesto-placeholder": "Selecciona una opción",
+
+      "impuesto-tasa": "Tasa (%)",
+      "impuesto-tasa-placeholder-2": "Entre :1% y :2%",
+      "impuesto-agregar": "Agregar impuesto",
+
+      "impuesto-tasa-cuota": "Tasa o Cuota",
+      "opciones": "Opciones",
+
+      "concepto-unidad": "Unidad",
+      "concepto-concepto-desc": "Concepto y descripción",
+      "concepto-precio-table": "Precio",
+      "concepto-edit": "Editar",
+      "concepto-eliminar": "Eliminar",
+      "concepto-subtotal": "Subtotal",
+      "concepto-total-table": "Total",
+
+      "doc-rel": "Documentos Relacionados",
+      "doc-rel-tipo": "Tipo de relación",
+      "doc-rel-uuid": "UUID",
+      "doc-rel-add": "Agregar",
+
+      "orden": "Orden",
+
+      "pickup": "Recolección",
+      "cargo_goods": "Tipo de mercancía",
+      "commodity_quantity": "Cantidad",
+
+      "dropoff": "Entrega",
+
+      "complementos": "Complementos",
+
+      "carta-porte": "Carta Porte",
+      "carta-porte-placeholder-2": "Selecciona un tipo de comprobante",
+
+      "serie": "Serie",
+      "serie-placeholder": "Selecciona una serie",
+      "serie-placeholder-2": "Serie (Selecciona un tipo de comprobante)",
+      "serie-placeholder-3": "Serie (Selecciona un emisor válido)",
+      "serie-placeholder-4": "Serie (No hay series guardadas)",
+      "serie-folio": "Folio",
+      "serie-edit": "Editar serie",
+      "serie-new": "Nueva serie",
+
+      "back": "Atrás",
+      "next": "Siguiente",
+
+      "btn-generar": "Generar Timbrado",
+      "btn-generar-success": "Enviada a generar",
+      "btn-generar-retry": "Reintentar",
+
+      "btn-eliminar": "Eliminar Factura",
+      "btn-eliminar-tpl": "Eliminar Template",
+
+      "btn-preview": "Vista Previa",
+      "btn-duplicar": "Duplicar",
+      "btn-pdf": "Descargar PDF",
+      "btn-pdf-driver": "Descargar PDF Driver",
+      "btn-xml": "Descargar XML",
+      "btn-acuse": "Descargar Acuse",
+      "btn-send-email": "Enviar por Correo",
+      "btn-cancel": "Cancelar factura",
+
+      "btn-save-update": "Guardar cambios",
+      "btn-save-update-success": "Cambios guardados",
+      "btn-save-retry": "Reintentar",
+      "btn-save-save": "Guardar",
+      "btn-save-save-success": "Factura guardada",
+      "btn-save-save-success-tpl": "Template guardado",
+
+      "preview-error": "Error al generar vista previa",
+
+      "template-delete-title": "Atención",
+      "template-delete-message": "¿Estas seguro que deseas eliminar este Template? Esta acción no se puede deshacer.",
+      "template-delete-success": "Template borrado",
+      "template-delete-error": "Error borrando el Template"
+    },
+    "manage-dir": {
+      "emisor": {
+        "title": "Sucursales emisor",
+        "subtitle": "(Añade, edita, elimina sucursales)"
+      },
+      "receptor": {
+        "title": "Direcciones receptor",
+        "subtitle": "(Añade, edita, elimina direcciones)"
+      },
+      "direccion": "Dirección",
+      "direccion-placeholder": "Seleciona una dirección",
+      "direccion-placeholder-1": "No se encontraron resultados",
+
+      "btn-save-retry": "Reintentar",
+      "btn-save-update": "Actualizar",
+      "btn-save-update-success": "Dirección actualizada",
+      "btn-save-save": "Guardar",
+      "btn-save-save-success": "Dirección guardada",
+      "btn-save-new": "Nueva Dirección",
+
+      "btn-delete-retry": "Reintentar",
+      "btn-delete": "Eliminar",
+      "btn-delete-success": "Dirección eliminada",
+
+      "btn-cancel": "Cancelar"
+    },
+    "emisor-concep": {
+      "title": "Productos o Servicios",
+      "subtitle": "(Añade, edita, elimina productos o servicios)",
+
+      "btn-cancel": "Cancelar",
+
+      "btn-delete-retry": "Reintentar",
+      "btn-delete": "Eliminar",
+      "btn-delete-success": "Concepto eliminado",
+
+      "btn-import-retry": "Reintentar",
+      "btn-import": "Importar Productos",
+      "btn-import-success": "Importación exitosa",
+
+      "nombre": "Nombre",
+      "descripcion": "Descripción",
+      "opciones": "Opciones",
+
+      "editar": "Editar",
+      "eliminar": "Eliminar",
+
+      "no-products": "No se encontraron productos o servicios",
+
+      "btn-save-retry": "Reintentar",
+      "btn-save-update": "Actualizar",
+      "btn-save-update-success": "Concepto actualizado",
+      "btn-save-save": "Guardar",
+      "btn-save-save-success": "Concepto guardado",
+      "btn-save-new": "Nuevo Producto o Servicio",
+
+      "template-tooltip": "Template\nDescargar archivo template de productos."
+    },
+    "serie-new": {
+      "title": "Series y logos",
+
+      "tipo-comprobante": "* Tipo de comprobante",
+
+      "serie": "* Serie",
+      "serie-placeholder": "* Nombre de la serie",
+
+      "folio": "* Folio",
+      "color": "Color (opcional)",
+
+      "use_for_automatic_stamp": "Utilizar como serie de facturación automática",
+
+      "image": "Imagen (opcional)",
+      "image-placeholder": "Seleccionar imagen (opcional)",
+
+      "btn-save": "Guardar",
+
+      "close-update-success": "Serie actualizada con éxito!",
+      "close-create-success": "Serie creada con éxito!",
+      "close-error": "Ocurrió un error"
+    },
+    "email-factura": {
+      "title": "Enviar por Correo",
+      "body": "Ingrese la siguiente información para enviar su comprobante por correo electrónico.",
+
+      "asunto": "Asunto",
+      "asunto-placeholder": "Ingresa el asunto con el que se enviará el correo",
+      "asunto-initial": "Tu comprobante Fiscal Digital",
+
+      "para": "Para",
+      "para-placeholder": "Ingresa el/los correo(s) del cliente",
+
+      "cc": "CC",
+      "cc-placeholder": "Ingresa el correo donde se enviará una copia (CC)",
+
+      "mensaje": "Mensaje",
+      "mensaje-placeholder": "Ingresa el mensaje que quieres que se añada al correo",
+
+      "reply": "Responder a",
+      "reply-placeholder": "Ingresa el correo donde te podrá contactar el cliente",
+
+      "btn-send": "Enviar Correo",
+      "btn-send-success": "Correo Enviado",
+      "btn-send-retry": "Reintentar"
+    },
+    "cancelar-factura": {
+      "title": "Cancelar Comprobante",
+      "body": "Ingresa el motivo de cancelación del comprobante.",
+
+      "motivo": "Motivo",
+      "motivo-placeholder": "Selecciona el motivo de cancelación del comprobante.",
+
+      "uuid": "Folio Sustitución",
+      "uuid-placeholder": "Ingresa el folio fiscal del CFDI a sustituir",
+
+      "btn-send": "Confirmar",
+      "btn-send-success": "Factura cancelada",
+      "btn-send-retry": "Reintentar"
+    },
+    "confirm": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar"
+    },
+    "emisores": {
+      "emisores": "Emisores",
+      "new": "Registrar Emisor"
+    },
+    "emisor-table": {
+      "rfc-emisor": "RFC Emisor",
+      "razon-social": "Razón Social",
+      "regimen": "Régimen Fiscal",
+      "correo-notificacion": "Correo de Notificación",
+      "validacion": "Validación",
+
+      "view-series": "Series",
+      "new-invoice": "Nueva Factura",
+      "edit-emisor": "Editar",
+      "set-default": "Establecer Principal",
+      "delete-emisor": "Eliminar Emisor",
+
+      "delete-success": "Emisor Borrado",
+      "delete-error": "No se pudo borrar el Emisor",
+
+      "set-default-success": "Cambio exitoso",
+      "set-default-error": "No se pudo establecer como principal"
+    },
+    "emisor-edit": {
+      "emisor": "Emisor",
+
+      "email": "Correo Para Notificar",
+      "email-placeholder": "Escribir Correo Electrónico",
+      "regimen": "Régimen Fiscal",
+      "regimen-placeholder": "Selecciona un Régimen Fiscal",
+      "cer": "Archivo CER (CSD)",
+      "key": "Archivo Key",
+      "key-password": "Archivo Key Contraseña",
+      "key-password-placeholder": "Escribir Archivo Key Contraseña",
+
+      "btn-save": "Guardar",
+
+      "create-success": "Emisor guardado",
+      "update-success": "Cambio exitoso"
+    },
+    "series": {
+      "series": "Series",
+      "new": "Nueva Serie"
+    },
+    "serie-table": {
+      "serie": "Serie",
+      "tipo-comprobante": "Tipo de Comprobante",
+      "folio": "Folio",
+      "color": "Color",
+      "logo": "Logo",
+      "use_for_automatic_stamp": "Timbrado Automático",
+      "editar": "Editar",
+      "borrar": "Borrar",
+
+      "save-success": "Serie guardada",
+      "save-error": "Serie borrada"
+    },
+    "cp-page": {
+      "carta-porte": "Carta Porte",
+      "btn-save": "Guardar",
+
+      "transporte": "Transporte",
+      "ubicaciones": "Ubicaciones",
+      "mercancias": "Mercancías",
+      "figura-transporte": "Figura de Transporte",
+
+      "success-title": "Carta porte",
+      "success-message": "La carta porte se ha guardado de manera satisfactoria",
+
+      "error-title": "La información es invalida",
+
+      "readonly-title": "Esta carta porte ya no puede ser editada",
+      "siguiente": "Siguiente",
+      "anterior": "Anterior"
+    },
+    "transporte": {
+      "transporte-internacional": "Transporte Internacional",
+
+      "pais-origen-destino": "País origen destino",
+      "movimiento-mercancia": "Movimiento de Mercancía",
+      "movimiento-mercancia-entrada": "Entrada",
+      "movimiento-mercancia-salida": "Salida",
+      "via-entrada": "Via Ingreso o Salida del País",
+
+      "siguiente": "Siguiente"
+    },
+    "autotransporte": {
+      "permiso-sct": "* Permiso SCT",
+      "num-permiso-sct": "* Número de Permiso SCT",
+
+      "seguros": "Seguros",
+
+      "nombre-civil": "* Nombre Aseguradora Responsabilidad Civil",
+      "numero-civil": "* Número Poliza Seguro Responsabilidad Civil",
+      "nombre-ambiental": "Nombre Aseguradora Ambiental (Opcional)",
+      "numero-ambiental": "Número Poliza Seguro Ambiental (Opcional)",
+      "nombre-carga": "Nombre Aseguradora Carga (Opcional)",
+      "numero-carga": "Número Poliza Seguro Carga (Opcional)",
+      "prima-seguro": "Prima Seguro (Opcional)",
+
+      "identificacion": "Identificación Vehicular",
+
+      "configuracion": "* Configuración",
+      "placa": "* Placa",
+      "año-modelo": "* Año y Modelo",
+      "año-modelo-error": "El año debe de ser mayor a 1900 y menor a 2099",
+
+      "vehicle_gross_weight": "Peso bruto vehícular",
+
+      "remolques": "Remolques"
+    },
+    "ubicaciones": {
+      "siguiente": "Siguiente"
+    },
+    "ubicacion": {
+      "origen-destino": "Orígen / Destino",
+
+      "tipo": "* Tipo",
+      "choose-a-date": "Elige una fecha",
+      "id-ubicacion": "ID Ubicación (Opcional)",
+      "id-ubicacion-error": "El id debe de iniciar con 'OR' o 'DE' seguido de 6 dígitos",
+      "nombre-destinatario": "Nombre (Opcional)",
+      "rfc": "RFC",
+      "residencia-fiscal": "* Residencia Fiscal",
+      "reg-tributario": "Registro Tributario",
+      "distancia-recorrida": "Distancia Recorrida",
+
+      "origin-already-title": "Ya existe una ubicación con origen",
+      "origin-already-message": "Sólo puede existir un origen en cada carta porte"
+    },
+    "location": {
+      "domicilio": "Domicilio",
+
+      "addr-estado-nocountry": "Selecciona un país primero",
+      "addr-municipio-noestado": " Selecciona un estado primero",
+      "addr-colonia-nocp": "Escribe un código postal primero",
+      "addr-referencia": "Referencia"
+    },
+    "mercancias": {
+      "peso-bruto": "Peso Bruto Total",
+      "unidad-peso": "Unidad Peso",
+      "siguiente": "Siguiente"
+    },
+    "commodity": {
+      "bienes-transportados": "Bienes Transportados",
+      "clave-unidad": "Clave Unidad",
+      "cantidad": "Cantidad",
+      "dimensiones": "Dimensiones",
+      "dimensiones-error": "Las dimensiones deben de tener el fomato '#/#/#' con terminación cm o plg. Ejemplo: 10/10/10cm",
+      "peso": "Peso (Kg)",
+      "valor-mercancia": "Valor Mercancía",
+      "moneda": "Moneda",
+      "tipo_materia": "Tipo materia",
+
+      "material-peligroso": "Material Peligroso",
+
+      "clave-material-peligroso": "Clave Material Peligroso",
+      "embalaje": "Embalaje",
+
+      "cantidad_transporta": {
+        "title": "Cantidad Transporta",
+        "quantity": "Cantidad",
+        "origin_id": "ID Origen",
+        "destination_id": "ID Destino",
+        "cves_transporte": "Claves de transporte"
+      },
+
+      "pedimentos": "Pedimentos",
+
+      "pedimento": "Pedimento",
+
+      "table-pedimento": "Pedimento"
+    },
+    "figura": {
+      "figura-transporte": "Figura de Transporte",
+      "tipo-figura": "Tipo de Figura",
+      "rfc-figura": "RFC",
+      "residencia-figura": "Residencia Fiscal",
+      "registro-trib-figura": "Registro Tributario",
+      "nombre-figura": "Nombre",
+      "num-licencia": "Num. Licencia",
+
+      "partes-transporte": "Partes del transporte",
+      "parte-transporte": "Parte transporte",
+
+      "table-parte-transporte": "Parte transporte"
+    },
+    "tooltips": {
+      "receptor": {
+        "rfc": "RFC\nIndica el Registro Federal del Contribuyente de tu cliente.",
+        "nombre": "Nombre o Razón social\nExpresa el nombre, denominación o Razón Social de tu cliente.",
+        "uso_cfdi": "Uso de CFDI\nSelecciona el uso que le dará tu cliente al CFDI.",
+        "regimen_fiscal": "Régimen fiscal\nIncorpora la clave del régimen fiscal del contribuyente receptor al que aplicará el efecto fiscal de este comprobante.",
+        "direccion": "Dirección\nPrecisa el domicilio fiscal del receptor, si tiene un sólo domicilio se expresa como \"Principal\". En caso de requerir agregar sucursales para el receptor, se identificarán con la información de \"Nombre Dirección\"."
+      },
+      "emisor": {
+        "rfc": "RFC\nIndica el Registro Federal del Contribuyente del emisor.",
+        "nombre": "Nombre o Razón social\nExpresa el nombre, denominación o Razón Social del emisor.",
+        "regimen_fiscal": "Régimen fiscal\nIncorpora la clave del régimen fiscal del contribuyente emisor al que aplicará el efecto fiscal de este comprobante."
+      },
+      "lugar_de_expedicion": "Lugar de Expedición\nExpresa el C.P. del lugar en donde se emite el CFDI.",
+      "tipo_de_comprobante": "Tipo de comprobante\nSelecciona el tipo de comprobante según sea la transacción comercial que se está realizando. Ingreso = Factura, Honorarios, Nota de Cargo, Donativos, Arrendamiento. Egreso = Nota de Crédito, Nota de devolución. Traslado = carta porte.",
+      "moneda": "Moneda\nIdentifica la clave de la moneda utilizada para expresar los montos del CFDI, cuando se usa moneda nacional se registra MXN. Conforme con la especificación ISO 4217.",
+      "tipo_de_cambio": "Tipo de Cambio\nExpresa el tipo de cambio de acuerdo a la moneda seleccionada para el CFDI. El valor debe ser equivalente a una unidad de la divisa señalada en el campo \"Moneda\".",
+      "metodo_de_pago": "Método de pago\nClave del método de pago que aplica para el CFDI, conforme al Artículo 29-A fracción VII incisos a y b del CFF.",
+      "forma_de_pago": "Forma de pago\nExpresa la clave de la forma de pago de los bienes o servicios amparados por el CFDI.",
+      "info_extra": "Información Extra\nExpresa información que se desea incluir en el PDF, puede incluirse información comercial o administrativa que ayude internamente.",
+      "conceptos": "Conceptos\nEn éste apartado agregarás la información de los productos o servicios que se incluirán en el CFDI.",
+      "concepto": {
+        "nombre": "Producto o Servicio\nNombre del producto o servicio a incluir en el CFDI",
+        "cve_sat": "Descripción SAT\nIndica la descripción de tu producto, se desplegarán las posibles opciones del catálogo del SAT. Selecciona la opción que más se apegue a tu producto.",
+        "unidad_de_medida": "Unidad de medida\nUnidad de medida del producto o servicio que se esta incluyendo en el CFDI.",
+        "valor_unitario": "Precio unitario\nExpresa la cantidad monetaria que expresa el valor del producto o servicio antes de los impuestos. Sin comas, sólo indica después del punto los decimales. Ej. 1568.40",
+        "cantidad": "Cantidad\nIndica el número de productos o servicios que se incluyen dentro del CFDI.",
+        "descuento": "Descuento\nExpresa la cantidad monetaria a disminuir el precio unitario del producto o servicio que se incluye en el CFDI. Sin comas, sólo indica despues del punto los decimales. Ej. 1200.50",
+        "descripcion": "Descripción\nIndica el detalle del producto o servicio que se está incluyendo en el CFDI.",
+        "importe": "Importe\nExpresa el importe del producto o servicio. Resultado de la multiplicación de la cantidad por el precio unitario. Sin comas, sólo indica después del punto los decimales. Ej. 1568.40",
+        "total": "Total concepto\nExpresa el valor neto del producto o servicio, incluyendo impuestos y/o descuento."
+      },
+      "impuesto": {
+        "impuesto": "Impuesto\nExpresa el impuesto a incluir en el producto o servicio.",
+        "tasa_cuota": "Tasa\nSelecciona el porcentaje de la tasa que corresponda al impuesto seleccionado. El porcentaje se  calcula con base al importe del producto o servicio. Ej. Si el importe es $100 y la tasa 16%,  el monto del impuesto será igual a $16.00. 8% sólo aplica para emisores autorizados por el SAT en zona fronteriza."
+      },
+      "documentos_relacionados": "Documentos relacionados\nExpresa la información de los CFDI relacionados al comprobante que se está emitiendo.",
+      "documentos_relacionado": {
+        "tipo_de_relacion": "Tipo de relación\nIndica la relación que existe entre el CFDI que se está generando y el/los CFDI previo(s).",
+        "uuid": "UUID\nFolio fiscal del CFDI. Ejemplo: 1335D8A8-1D90-445C-A20D-3371CCDE6006"
+      },
+      "complementos": "Complementos\nInformación adicional regulada por el SAT, se incluye en el XML. Puede incluir información para un sector o actividad específica.",
+      "serie": "Serie\nExpresa letra o conjunto de letras para tener un control interno de los CFDI.",
+      "precio": {
+        "subtotal": "Escribe el precio total del servicio (Antes de impuestos)."
+      },
+      "commodity": {
+        "cve_material_peligroso": "Clave Material Peligroso\nIndica la clave del tipo de material peligroso que se transporta.",
+        "embalaje": "Embalaje\nIndica la clave del tipo de embalaje que se requiere para transportar el material o residuo peligroso."
+      },
+      "invoice_source": {
+        "factura": "Factura no relacionada con una orden.",
+        "ordenes": "Factura generada por la creación de una orden desde el dashboard.",
+        "drivers": "Factura generada por la creación de una orden desde la APP de Drivers."
+      }
+    }
+  },
+  "fleet": {
+    "colors": {
+      "red": "Rojo",
+      "orange": "Naranja",
+      "yellow": "Amarillo",
+      "green": "Verde",
+      "blue": "Azul",
+      "purple": "Morado",
+      "pink": "Rosa",
+      "white": "Blanco",
+      "black": "Negro",
+      "gray": "Gris",
+      "grey": "Gris"
+    },
+    "color-picker": {
+      "change": "Cambiar?",
+      "other": "Otro?"
+    },
+    "only-imgs": "Sólo se aceptan imágenes",
+    "choose-invitation": {
+      "txt_choose": "Elige una opción",
+      "txt_invite": "Invitar",
+      "txt_register": "Registrar",
+      "btn_continue": "Continuar",
+      "modal_manager_title": "Invita",
+      "modal_bego_title": "Registra a todos",
+      "modal_manager_copy": "Ingresa correos e invita a operadores a unirse a tu flotilla",
+      "modal_bego_copy": "Descarga y envianos el formato anexo y lo hacemos por ti."
+    },
+    "invite-csv": {
+      "txt_register": "Registro",
+      "txt_download": "Descarga y completa el siguiente formato.",
+      "txt_instructions": "Una vez completado, por favor envíanos un correo con el archivo adjunto a la siguiente dirección. Nosotros te notificaremos cuando ya puedan accesar al app.",
+      "btn_download": "Descargar"
+    },
+    "invite-driver": {
+      "txt_invitation": "Invitación",
+      "txt_driver": "Operador",
+      "txt_name": "Nombre Completo",
+      "btn_send": "Enviar"
+    },
+    "txt_fleet": "Flotilla",
+    "btn_order": "ORDEN",
+    "btn_view_all": "VER TODOS",
+    "txt_fleet_name": "Nombre de flotilla",
+    "txt_team": "Equipo",
+    "txt_trucks": "Unidades",
+    "txt_trailers": "Cajas",
+    "txt_driver_truck": "Operador y unidad requeridos.",
+    "txt_driver_truck_m": "Necesitas al menos un operador y una unidad para generar servicios.",
+    "txt_sort": "Ordenar por:",
+    "txt_showing": "Mostrando",
+    "txt_of": "de",
+    "btn_remove": "Remover",
+    "btn_new_vehicle": "Agregar nuevo vehículo",
+    "clear_fleet_group": "Limpiar",
+    "fleet_name": "Flotilla",
+    "members": {
+      "txt_header": "Equipo",
+      "txt_search": "Buscar...",
+      "btn_add": "Agregar",
+      "sort_by": {
+        "member_meta.date_created": "Fecha creación",
+        "member.nickname": "Nombre"
+      },
+      "incoming": "próximas",
+      "done": "completadas",
+      "see_details": "Ver perfil",
+      "table": {
+        "nickname": "Name",
+        "status": "Estatus"
+      }
+    },
+    "trucks": {
+      "txt_header": "Unidades",
+      "txt_search": "Buscar unidad...",
+      "btn_add": "Agregar",
+      "sort_by": {
+        "date_created": "Fecha creación",
+        "attributes.brand": "Marca"
+      },
+      "see_details": "Ver unidad",
+      "btn_view": "Ver unidad",
+      "truck_details": "Detalles del camión",
+      "truck_settings": "Ajustes del camión",
+      "truck_insurance": "Seguro del camión",
+      "model": "Modelo",
+      "year": "Año",
+      "plates": "Placas",
+      "color": "Color",
+      "more": "Más",
+      "txt-done": "Hecho",
+      "btn-other": "Otro",
+      "finish": "Finalizar",
+      "uploading": "Subiendo",
+      "insurer-name": "Aseguradora",
+      "policy-number": "Número de póliza",
+      "delete-insurance-warning": "¿Estás seguro que quieres eliminar la póliza de seguro para este camión?",
+      "type-model": "Escribe modelo",
+      "type-year": "Selecciona año",
+      "type-plates": "Escribe placas",
+      "type-sct-number": "Escribe número de permiso SCT",
+      "type-insurer": "Escribe aseguradora",
+      "type-policy-number": "Escribe número de póliza",
+      "invalid-plates": "Placas invalidas",
+      "invalid-model": "Modelo inválido",
+      "sct-number": "Num. Permiso sct",
+      "sct-perm-required": "Permiso sct requerido",
+      "truck-settings-required": "Ajustes del camión requeridos",
+      "required": "requerido",
+      "table": {
+        "brand": "Marca",
+        "year": "Año",
+        "plates": "Placas",
+        "color": "Color",
+        "operations": "Operaciones"
+      }
+    },
+    "trailers": {
+      "txt_header": "Cajas",
+      "txt_search": "Buscar caja...",
+      "btn_add": "Agregar",
+      "sort_by": {
+        "date_created": "Fecha creación",
+        "trailer_number": "Número de caja"
+      },
+      "see_details": "Ver caja",
+      "btn_view": "Ver caja",
+      "plates": "Placas",
+      "trailer-type": "Tipo de caja",
+      "trailer-subtype": "Subtipo de caja",
+      "table": {
+        "type": "Tipo",
+        "trailer_number": "Número de Trailer",
+        "type-trailer-number": "Escribe el número de trailer"
+      }
+    },
+    "prime": {
+      "ocl": "Otro",
+      "txt_header": "Mis",
+      "txt_header_vehicles": "Mis vehiculos",
+      "btn_add": "Agregar",
+      "txt_search": "Buscar vehículo...",
+      "see_details": "Ver",
+      "btn_view": "Ver",
+      "btn_save": "Guardar",
+      "brand": "Modelo",
+      "year": "Año",
+      "vehicle_number": "Placas",
+      "nickname": "Nombre",
+      "placeholder": {
+        "brand": "Escribe el modelo",
+        "vehicle_number": "Escribe las placas",
+        "nickname": "Escribe el nombre"
+      },
+      "sort_by": {
+        "type": "Nombre",
+        "_id": "Fecha creación",
+        "date_created": "Fecha creación",
+        "attributes.vehicle_number": "Placas"
+      },
+      "table": {
+        "vehicle_number": "Número de vehículo"
+      },
+      "category_modal": {
+        "title": "Añadir nueva categoria",
+        "placeholder-category": "Escribe el nombre de tu categoría",
+        "btn-open": "Crear categoría",
+        "btn-done": "Crear"
+      },
+      "complete_modal": {
+        "done": "Listo",
+        "title": "Vehículo salvado",
+        "txt": "Su vehículo ha sido agregado exitosamente a la sección de flota"
+      }
+    },
+    "alerts": {
+      "invitation_sent": {
+        "title": "Invitación enviada",
+        "message": "Tu invitación ha sido enviada con éxito. Espera una respuesta del operador para que aparezca en tu flotilla"
+      },
+      "partial_sent": {
+        "title": "Invitation sent",
+        "message": "Tu invitación ha sido enviada con éxito con la excepción de los siguientes operadores:"
+      },
+      "delete_member": {
+        "title": "Eliminar miembro",
+        "message": "¿Estás seguro de querer eliminar permanentemente a este operador de tu flotilla?",
+        "btn_cancel": "Cancelar"
+      },
+      "delete_truck": {
+        "title": "Eliminar unidad",
+        "message": "¿Estás seguro de querer eliminar permanentemente a esta unidad de tu flotilla?",
+        "btn_cancel": "Cancelar"
+      },
+      "delete_trailer": {
+        "title": "Eliminar caja",
+        "message": "¿Estás seguro de querer eliminar permanentemente a esta caja de tu flotilla?",
+        "btn_cancel": "Cancelar"
+      }
+    }
+  },
+  "home": {
+    "manager": {
+      "member-assignment": {
+        "cant-select": "No se puede seleccionar este elemento",
+        "info-missing": "Para poder seleccionarlo, agrega más información del elemento desde la página de editar datos de flotilla",
+        "no-license-translate": "Este driver require proporcionar un número de licencia. El número de licencia es requerido."
+      }
+    },
+    "fleet-assignment": {
+      "time-date": "Hora y fecha asignadas",
+      "schedule": "Programar para:",
+      "aprox-time": "Tiempo de tránsito aproximado",
+      "cp-order": "¿Factura y carta porte?",
+      "available-drivers": "Conductores disponibles",
+      "available-trucks": "Camiones disponibles",
+      "available-trailers": "Cajas disponibles"
+    },
+    "alerts": {
+      "cant-cp-drivers": "No puedes seleccionar este operador hasta que completes su información para carta porte.",
+      "cant-cp-trucks": "No puedes seleccionar este camión hasta que completes su información para carta porte.",
+      "cant-cp-trailers": "No puedes seleccionar esta caja hasta que completes su información para carta porte.",
+      "not-available-drivers": "Este operador no está disponible para dicha fecha, pero puedes selecionarlo bajo tu responsabilidad.",
+      "not-available-trucks": "Este camión no está disponible para dicha fecha, pero puedes selecionarlo bajo tu responsabilidad.",
+      "not-available-trailers": "Esta caja no está disponible para dicha fecha, pero puedes selecionarlo bajo tu responsabilidad."
+    },
+    "polygon-filter": {
+      "btn-filter": "Filtro",
+      "btn-share": "Compartir",
+      "btn-active-24": "Drivers activos las últimas 24 horas",
+      "filter": {
+        "title": "Filtros",
+        "column": {
+          "drivers": "Drivers",
+          "polygons": "Polígonos",
+          "tags": "Etiquetas",
+          "empty": "",
+          "search": "Buscar..."
+        },
+        "date": "Fecha",
+        "heatmap": {
+          "title": "¿Quieres mapa de calor?",
+          "yes": "SI",
+          "no": "NO"
+        },
+        "actions": {
+          "clear": "Limpiar",
+          "cancel": "Cancelar",
+          "apply": "Aplicar"
+        },
+        "no-results": {
+          "dispersion": "No se encontraron resultados",
+          "heatmap": "No se encontraron resultados"
+        },
+        "error": "Hubo un error, intente más tarde",
+        "cluster": {
+          "init": "Grupo de",
+          "type": "drivers"
+        }
+      },
+      "share": {
+        "sended": {
+          "title": "¡Email enviado!",
+          "subtitle": "Tu email fue enviado exitosamente, revisa tu bandeja de entrada para ver el contenido.",
+          "done": "Aceptar"
+        },
+        "form": {
+          "title": "Informe personal",
+          "subtitle": "Ingrese el email al que desea enviar un informe actualizado",
+          "name": "Nombre*",
+          "email": "Email*",
+          "placeholder": "Escribe el nombre completo",
+          "send": "Enviar"
+        }
+      }
+    }
+  },
+  "small-display-modal": {
+    "small-display-modal-title": "La resolución de esta pantalla es muy pequeña para la aplicación",
+    "small-display-modal-body": "Para una mejor experiencia, descarga la app de la App Store o de la Play Store"
+  },
+  "incompatible-browser-modal": {
+    "incompatible-browser-modal-title": "Este navegador no es compatible con la app",
+    "incompatible-browser-modal-body": "Para una mejor experiencia, usa otro navegador"
+  },
+  "pin": {
+    "title": "Confirmar dirección",
+    "btn": "Confirmar",
+    "placeholder": "Destino, Destino",
+    "address": {
+      "title": "Editar dirección",
+      "txt-address": "Dirección",
+      "placeholder-address": "Introduce destino",
+      "txt-pin": "Fijar la ubicación en el mapa",
+      "txt_invalidDriection": "Se más específico en su dirección.",
+      "txt-address-not-found": "No se encontró la dirección"
+    }
+  },
+  "payments": {
+    "expiration": {
+      "paid": "Pagada",
+      "expired": "Vencida",
+      "day": "día",
+      "days": "días",
+      "lastDay": "Último día"
+    },
+    "buttons": {
+      "upload": "Subir pago",
+      "message": "Ver mensajes nuevos"
+    },
+    "table": {
+      "title": "Control de Pagos",
+      "order_number": "Orden",
+      "reference_number": "Número de referencia BGO",
+      "vouchers_icon": "Vouchers",
+      "due_date": "Vencimiento",
+      "folio": "Factura",
+      "razon_social": "Razón Social",
+      "status": "Estado",
+      "subtotal": "Subtotal",
+      "total": "Total",
+      "bank": "Banco",
+      "account": "CLABE interbancaria",
+      "swift": "Número swift/ABA",
+      "date_created": "Creada",
+      "carrier_credit_days": "Días de Credito",
+      "pdf": "PDF",
+      "xml": "XML",
+      "payment_method": "Tipo de pago",
+      "last_message": "Último mensaje"
+    },
+    "paginator": {
+      "total": "Total",
+      "of": "de",
+      "nextPage": "Siguiente",
+      "prevPage": "Anterior",
+      "itemsPerPage": "Items por página"
+    },
+    "filter": {
+      "input": "Buscar...",
+      "selector": "Buscar..."
+    },
+    "status": {
+      "cancel": "Cancelada",
+      "rejected": "Rechazada",
+      "invalid-data": "Invalida",
+      "uploaded": "Subida",
+      "validated": "Validada",
+      "pending-payment": "Por pagar",
+      "paid": "Pagada"
+    },
+    "actions": {
+      "view_xml": "Ver XML",
+      "view_pdf": "Ver PDF",
+      "view_vouchers": "Ver comprobantes",
+      "view_upfronts": "Ver adelantos",
+      "view_bank": "Datos bancarios",
+      "view_message": "Abrir chat"
+    },
+    "upload-modal": {
+      "title": "Subir Pago",
+      "send-btn": "Enviar",
+      "order-number": "Orden o NCO",
+      "reference-number": "Número de referencia BGO",
+      "invalid-file": "Archivo inválido",
+      "select-file": "Selecciona un archivo",
+      "label_foreign_payment": "Banco extranjero"
+    },
+    "edited-modal": {
+      "done": "Hecho",
+      "cancel": "Cancel",
+      "title": "¡Listo!",
+      "subtitle": "Su pago fue subido correctamente",
+      "failed": "Hubo un error, intente más tarde"
+    },
+    "vouchers": {
+      "title": "Comprobantes",
+      "subtitle": "Podrás observar algunos de los comprobantes que se han subido a esta orden."
+    },
+    "upfront_vouchers": {
+      "title": "Adelantos",
+      "subtitle": "Podrás observar algunos de los adelantos que se han subido a esta orden."
+    },
+    "view-modal-files": {
+      "title": "Comprobantes",
+      "not-vouchers": "Actualmente, no hay comprobantes disponibles para esta orden.",
+      "not-upfront": "Actualmente, no hay adelantos disponibles para esta orden."
+    },
+    "bank-details-modal": {
+      "title": "Datos bancarios",
+      "bank": "Banco",
+      "account": "CLABE interbancaria",
+      "swift": "Número swift/ABA"
+    },
+    "chat-message-modal": {
+      "title": "Chat",
+      "not-meessage": "La conversación aún no ha comenzado.",
+      "btn-save": "Enviar",
+      "placeholder-message": "Escribe tu mensaje"
+    }
+  },
+  "tags": {
+    "created": "Se creó el tag correctamente",
+    "updated": "Se actualizó el tag correctamente",
+    "driver": {
+      "added": "Conductor agregado correctamente",
+      "removed": "Conductor eliminado correctamente"
+    },
+    "confirm_dialog": {
+      "done": "Ok"
+    },
+    "delete_dialog": {
+      "title": "Eliminar tag",
+      "done": "Si, eliminar",
+      "cancel": "Cancelar"
+    },
+    "confirm_delete_question": "¿Quiere eliminar el tag ",
+    "send_message": {
+      "sent_message_title": "Mensajes",
+      "sent_message": "El mensaje ha sido enviado correctamente!",
+      "dialog_title": "Enviar mensaje",
+      "message": "Contenido del mensaje",
+      "title": "Título del mensaje",
+      "choose_type": "Elija el tipo de mensaje",
+      "sms": "Mensaje SMS",
+      "push": "Notificación push",
+      "send": "Enviar mensaje",
+      "validation": {
+        "title_required": "El título del mensaje es obligatorio",
+        "message_required": "Debe incluir un mensaje",
+        "type_required": "Por favor elija el tipo de mensaje"
+      }
+    },
+    "form": {
+      "title": "Crear Tag",
+      "edit_title": "Editar Tag",
+      "add_drivers_title": "Agregar conductores",
+      "edit_drivers_title": "Editar conductores",
+      "tag_name": "Nombre del Tag:",
+      "tag_name_placeholder": "Ingrese el nombre del tag",
+      "tag_edit_placeholder": "Ingrese el nuevo nombre del tag",
+      "add_driver_toast": "Conductor(es) agregado(s) correctamente",
+      "delete_driver_toast": "Conductor(es) eliminado(s) correctamente",
+      "error_tag_toast": "Se produjo un error al agregar o eliminar el/los conductor(es)",
+      "error_tag_name": "Ocurrió un error al crear la tag",
+      "error_repeat_tag_name": "El nombre de la tag ya existe"
+    },
+    "validation": {
+      "carriers_required": "Debe seleccionar al menos un conductor",
+      "name_required": "El nombre para el tag es obligatorio"
+    },
+    "buttons": {
+      "create": "Agregar tag",
+      "save": "Guardar",
+      "finish": "Finalizar"
+    },
+    "table": {
+      "title": "Tags",
+      "columns": {
+        "_id": "",
+        "name": "Nombre",
+        "number_of_drivers": "Núm. conductores",
+        "date_created": "Fec. de Creación",
+        "last_update": "Fec. de Modificación"
+      }
+    },
+    "drivers_table": {
+      "title": "Selecciona los conductores para el tag",
+      "columns": {
+        "_id": "",
+        "nickname": "Nombre",
+        "email": "Correo electrónico",
+        "telephone": "Teléfono",
+        "verified": "Verificado",
+        "thumbnail": "dsad"
+      }
+    },
+    "filter": {
+      "input": "Buscar...",
+      "selector": "Buscar..."
+    },
+    "actions": {
+      "edit_tag_name": "Editar nombre",
+      "edit_drivers": "Editar conductores",
+      "delete": "Eliminar",
+      "send_message": "Enviar mensaje"
+    },
+    "edited-modal": {
+      "done": "Hecho",
+      "cancel": "Cancel",
+      "title": "¡Listo!",
+      "failed": "Hubo un error, intente más tarde"
+    }
+  },
+  "paginator": {
+    "total": "Total",
+    "of": "de",
+    "nextPage": "Siguiente",
+    "prevPage": "Anterior",
+    "itemsPerPage": "Items por página"
+  },
+  "filter": {
+    "input": "Buscar...",
+    "selector": "Buscar..."
+  },
+  "polygons": {
+    "title": "Polígonos",
+    "actions": {
+      "rename": "Renombrar",
+      "edit": "Actualizar puntos",
+      "delete": "Borrar"
+    },
+    "paginator": {
+      "total": "Total",
+      "of": "de",
+      "nextPage": "Siguiente",
+      "prevPage": "Anterior",
+      "itemsPerPage": "Items por página"
+    },
+    "filter": {
+      "input": "Buscar...",
+      "selector": "Buscar..."
+    },
+    "table": {
+      "name": "Nombre",
+      "date_created": "Fecha de creación"
+    },
+    "buttons": {
+      "create": "Crear Polygon"
+    },
+    "create-polygon": {
+      "title": {
+        "create": "Crear un Polígono",
+        "rename": "Renombrar Polígono",
+        "delete": "Eliminar Polígono"
+      },
+      "warn": {
+        "delete": "¿Estás seguro de que quieres eliminar el polígono?"
+      },
+      "title-success": {
+        "create": "Polígono creado exitosamente",
+        "rename": "¡Hecho!",
+        "delete": "¡Hecho!"
+      },
+      "subtitle-success": {
+        "create": "Tu polígono se ha creado correctamente en el mapa y se ha agregado a los filtros.",
+        "rename": "Tu polígono ha sido renombrado correctamente",
+        "delete": "Tu polígono ha sido eliminado correctamente"
+      },
+      "input-placeholder": "Escribe un nombre",
+      "button-accept": "Aceptar",
+      "button-success": "Ok",
+      "button-cancel": "Cancelar"
+    }
+  },
+  "saved-locations": {
+    "my-locations": "Mis ubicaciones guardadas",
+    "search": "Buscar ubicación",
+    "opt-edit": "Editar ubicación",
+    "opt-delete": "Eliminar ubicación",
+    "btn-back": "Regresar",
+    "invoice": {
+      "add": "Agregar ubicación de factura",
+      "edit": "Editar ubicación de factura",
+      "updated": "Dirección de factura actualizada"
+    },
+    "modal": {
+      "title-form": "Nombre de la dirección",
+      "title-complete": "Guardado!",
+      "placeholder": "Escriba el nombre de su dirección",
+      "complete-msg": "Su ubicación ha sido guardada y agregada a sus ubicaciones favoritas.",
+      "btn-done": "Asombroso",
+      "btn-confirm": "Guardar",
+      "btn-cancel": "Cancelar"
+    }
+  },
+  "chibpt": {
+    "history": {
+      "title": "Historial",
+      "new-chat": "Nuevo chat",
+      "timestamp": {
+        "today": "Hoy",
+        "yesterday": "Ayer",
+        "last7Days": "7 días anteriores",
+        "last30Days": "30 días anteriores",
+        "previous": "Antiguo"
+      },
+      "edit": "Renombrar",
+      "delete": "Borrar ",
+      "modal": {
+        "title": "¿Deseas eliminar el chat?",
+        "subtitle": "Esto eliminará ",
+        "done": "Eliminar",
+        "cancel": "Cancelar"
+      }
+    },
+    "chatbox": {
+      "send": "Enviar",
+      "placeholder": "Envía un mensaje a ChibPT",
+      "message": {
+        "error-img": "Esta imagen ha caducado"
+      }
+    },
+    "footer": "ChibiPT puede cometer errores. Comprueba la información importante.",
+    "greeting": "¿Como te puedo ayudar hoy?"
+  },
+  "invoice-address": {
+    "success-alert": "Dirección guardada",
+    "title": "Dirección de facturación",
+    "inputs": {
+      "street": {
+        "label": "Calle",
+        "placeholder": "Calle"
+      },
+      "external_number": {
+        "label": "No. Exterior",
+        "placeholder": "No. Exterior"
+      },
+      "internal_number": {
+        "label": "No. Interior",
+        "placeholder": "No. Interior"
+      },
+      "country": {
+        "label": "País",
+        "placeholder": "País"
+      },
+      "state": {
+        "label": "Estado",
+        "placeholder": "Estado",
+        "country_required": "Selecciona un país"
+      },
+      "municipality": {
+        "label": "Municipio",
+        "placeholder": "Municipio",
+        "state_required": "Selecciona un Estado"
+      },
+      "locality": {
+        "label": "Localidad",
+        "placeholder": "Localidad",
+        "state_required": "Selecciona un Estado"
+      },
+      "cp": {
+        "label": "Código Postal",
+        "placeholder": "Código Postal"
+      }
+    },
+    "actions": {
+      "save": "Guardar",
+      "cancel": "Cancelar"
+    }
+  }
+}

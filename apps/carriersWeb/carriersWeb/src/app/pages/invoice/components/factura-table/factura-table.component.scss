@@ -1,0 +1,249 @@
+@use 'src/styles.scss';
+@use 'src/app/shared/styles/icomoon.scss';
+@use '../../styles/colors';
+@use '../../styles/font';
+@use '../../styles/variables';
+
+.factura-table-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0 16px 32px 16px;
+  background: #0a0f14;
+
+  &__header {
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: variables.$small) {
+      padding: 0 16px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+  }
+
+  &__search {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon-wrapper {
+    height: 46px;
+    width: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__icon {
+    color: inherit;
+  }
+
+  &__search-input {
+    font-size: font.$fs-normal;
+    height: 32px;
+    border: 0;
+    border-bottom: 1px solid colors.$grey;
+    outline: none;
+
+    @media (max-width: variables.$small) {
+      width: 150px;
+    }
+
+    &:focus {
+      border-bottom: 2px solid colors.$blue;
+    }
+  }
+
+  &__button {
+    box-shadow: none;
+    background-color: inherit;
+    width: 46px;
+    height: 46px;
+    color: colors.$grey;
+
+    &:hover {
+      background-color: colors.$black-08;
+      color: colors.$blue;
+    }
+  }
+}
+
+.brand-table-1 {
+  .mat-mdc-cell:nth-child(4),
+  .mat-mdc-cell:nth-child(5) {
+    white-space: pre-line;
+  }
+
+  .mat-mdc-cell:nth-child(9) {
+    width: 180px;
+  }
+
+  .mat-mdc-cell:nth-child(10),
+  .mat-mdc-cell:nth-child(11),
+  .mat-mdc-cell:nth-child(13) {
+    text-align: right;
+  }
+}
+
+.factura-table {
+  &__content {
+    overflow-x: scroll;
+    position: relative;
+
+    .begon-invoice-order,
+    .begon-invoice-cfdi {
+      --color: #2568ef;
+      --font-size: 30px;
+    }
+
+    .begon-invoice-driver {
+      --color: #ededed;
+      --font-size: 30px;
+    }
+
+    .begon-invoice-user {
+      --color: #ffe000;
+      --font-size: 30px;
+    }
+  }
+
+  &__content-badge {
+    width: fit-content;
+    border-radius: 32px;
+    color: colors.$white;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 13px;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-weight: font.$fw-lighter;
+    line-height: 1.75;
+    letter-spacing: 0.457px;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  &__paginator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 35px;
+
+    .total {
+      font-family: 'Avenir';
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      color: #ededed;
+    }
+
+    .ngx-pagination {
+      margin-bottom: 0;
+      padding-left: 0;
+
+      .pagination-previous,
+      .current,
+      a,
+      button,
+      .pagination-next {
+        font-family: 'Avenir';
+        font-size: 12px;
+        font-weight: 500;
+        color: #ededed;
+        text-transform: uppercase;
+      }
+
+      .pagination-previous.disabled,
+      .pagination-next.disabled {
+        color: #494c50;
+      }
+
+      a:hover {
+        color: black;
+      }
+
+      li.current {
+        background: unset;
+        font-weight: 500;
+        text-decoration: underline;
+      }
+
+      .pagination-previous.disabled::before,
+      .pagination-previous a::before,
+      .pagination-next.disabled::after,
+      .pagination-next a::after {
+        font-family: icomoon.$icomoon-font-family !important;
+        font-style: normal;
+        font-feature-settings: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 14px;
+      }
+
+      .pagination-previous.disabled::before,
+      .pagination-previous a::before {
+        content: '' !important;
+        transform: translateY(1px);
+      }
+
+      .pagination-next.disabled::after,
+      .pagination-next a::after {
+        content: '';
+        transform: translateY(1px);
+      }
+    }
+
+    .mat-form-field-outline:first-child {
+      border: 1px solid #1c232a;
+      box-shadow: inset -2px -2px 4px #1c232a, inset 4px 4px 4px #02070b;
+      border-radius: 4px;
+    }
+
+    .mat-form-field-appearance-outline .mat-form-field-infix {
+      width: 3rem;
+      padding: 0.8rem 0 0.5rem;
+      border-top: unset;
+    }
+
+    .mat-form-field-wrapper {
+      padding-bottom: 0;
+    }
+
+    .mat-mdc-select-value {
+      color: #ededed;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      text-align: center;
+    }
+
+    .mat-form-field-appearance-outline .mat-mdc-select-arrow-wrapper {
+      transform: unset;
+    }
+
+    .mat-mdc-select-arrow {
+      color: #ededed;
+    }
+
+    mat-label {
+      margin-right: 1em;
+      font-family: 'Avenir';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      color: #ededed;
+    }
+  }
+}
+
+.mat-mdc-card {
+  --mdc-elevated-card-container-color: transparent;
+}

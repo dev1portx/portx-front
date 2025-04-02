@@ -1,0 +1,69 @@
+mat-radio-button {
+  .mdc-radio__background {
+    --mdc-radio-selected-icon-color: #fe0;
+    --mdc-radio-selected-hover-icon-color: #fe0;
+    --mdc-radio-selected-focus-icon-color: #fe0;
+    --mdc-radio-selected-pressed-icon-color: #fe0;
+    --mdc-radio-unselected-icon-color: #ededed;
+    --mdc-radio-unselected-hover-icon-color: #ededed;
+    --mdc-radio-unselected-focus-icon-color: #fe0;
+    --mdc-radio-unselected-pressed-icon-color: #ededed;
+  }
+
+  .mdc-label {
+    color: #ededed;
+  }
+}
+
+.app-factura-filters {
+  .title {
+    margin-bottom: 25px;
+  }
+
+  .filters {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem 2rem;
+    justify-content: flex-end;
+    grid-gap: 1rem;
+  }
+
+  .mat-mdc-input-element::placeholder,
+  mat-select .mat-mdc-select-placeholder {
+    color: #54575c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: 'Avenir';
+  }
+
+  mat-label,
+  .mat-mdc-select-value,
+  .mat-radio-label .mat-radio-label-content {
+    color: #ededed;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .mat-radio-label .mat-radio-label-content {
+    font-size: 14px;
+  }
+
+  .mat-form-field-outline:first-child {
+    border: 1px solid #1c232a;
+    box-shadow: inset -2px -2px 4px #1c232a, inset 4px 4px 4px #02070b;
+    border-radius: 4px;
+  }
+
+  .mat-form-field-appearance-outline .mat-form-field-infix {
+    width: auto;
+    padding: 0.5em 0;
+  }
+
+  .mat-form-field-wrapper {
+    padding-bottom: 0;
+  }
+}

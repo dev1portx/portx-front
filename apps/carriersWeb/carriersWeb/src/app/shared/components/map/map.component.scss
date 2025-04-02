@@ -1,0 +1,10 @@
+#map {
+    height: 100vh;
+    transition: opacity 0.5s;
+
+    &.map-faded-out{
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+

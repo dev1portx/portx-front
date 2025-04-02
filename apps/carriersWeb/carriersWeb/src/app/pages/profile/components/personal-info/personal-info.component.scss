@@ -1,0 +1,25 @@
+@use 'src/styles.scss';
+
+.personal-info {
+  .form-container {
+    max-width: 700px;
+    // margin: 0px auto;
+    padding: 15px;
+
+    .row {
+      @include styles.fluid('gap', 800px, 1920px, 10px, 80px);
+      display: flex;
+      margin: 50px 0px;
+    }
+  }
+
+  mat-form-field,
+  bego-phone-input {
+    flex: 1;
+    --mdc-outlined-text-field-focus-outline-color: transparent;
+  }
+}
+
+bego-address-autocomplete {
+  width: 100%;
+}

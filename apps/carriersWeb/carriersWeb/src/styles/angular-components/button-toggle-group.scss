@@ -1,0 +1,64 @@
+@use '@angular/material' as mat;
+
+.mat-button-toggle-group.mat-button-toggle-group-appearance-standard {
+  background: #0b1117;
+  border: 2px solid #171e24;
+  box-shadow: inset 4px 4px 10px #040b11;
+  border-radius: 8px;
+  color: white;
+
+  .mat-button-toggle {
+    background-color: transparent;
+    color: white;
+    min-width: 150px;
+
+    &.mat-button-toggle-checked {
+      background-color: #ffe000;
+      color: #0b1117;
+      border-radius: 8px;
+    }
+  }
+}
+
+::ng-deep .mat-mdc-slide-toggle {
+  $gradient: linear-gradient(180deg, rgba(39, 42, 46, 1) 0%, rgba(39, 42, 46, 1) 60%, rgba(60, 65, 71, 1) 100%);
+  $active-gradient: linear-gradient(180deg, rgb(226, 178, 0) 0%, rgb(255, 201, 0) 10%, rgb(255, 201, 0) 60%);
+
+  .mdc-switch {
+    @include mat.slide-toggle-overrides(
+      (
+        selected-focus-track-color: $active-gradient,
+        selected-pressed-track-color: $active-gradient,
+        selected-track-color: $active-gradient,
+        selected-hover-track-color: $active-gradient,
+        unselected-focus-track-color: $gradient,
+        unselected-pressed-track-color: $gradient,
+        unselected-track-color: $gradient,
+        unselected-hover-track-color: $gradient,
+        unselected-with-icon-handle-horizontal-margin: -2px,
+        selected-with-icon-handle-horizontal-margin: -2px,
+        unselected-pressed-handle-horizontal-margin: -2px,
+        selected-pressed-handle-horizontal-margin: -2px,
+        track-height: 19px,
+        track-width: 42px,
+        track-shape: 12px,
+      )
+    );
+  }
+
+  .mdc-switch__ripple {
+    display: none;
+  }
+
+  .mdc-switch__icons {
+    height: 22px;
+    width: 22px;
+    flex-shrink: 0;
+    background: #fff url(/assets/images/invoice/handle.svg) no-repeat center / contain;
+    border-radius: 50%;
+
+    * {
+      display: none;
+    }
+  }
+}

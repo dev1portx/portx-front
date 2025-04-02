@@ -1,0 +1,74 @@
+@use 'src/app/shared/styles/icomoon.scss';
+
+.mat-mdc-select{
+
+    &:not(.disable-custom-format){
+			background-color: #040B11;
+			border: 2px solid #161B20;
+			box-sizing: border-box;
+			box-shadow: 0px 1px 4px #040b11, inset -3px -3px 4px #13181e, inset 3px 3px 4px #000000;
+			border-radius: 8px;
+			padding: 12px;
+
+			.mat-mdc-select-arrow-wrapper{
+
+				.mat-mdc-select-arrow{
+						display: none;
+				}
+
+				&::after{
+					color: #ededed;
+					font-family: icomoon.$icomoon-font-family;
+					content: '\e932';
+				}
+			}
+    }
+
+		&.mat-mdc-select-disabled{
+			.mat-mdc-select-min-line{
+				color: #c1c7d0;
+			}
+		}
+
+
+}
+
+.mat-mdc-select-panel{
+    --mat-select-panel-background-color: #0B1117;
+    --mat-select-container-elevation-shadow: inset 2px 2px 5px #1A1E24, inset -2px -2px 4px #050D14;
+    border-radius: 8px;
+    min-width: calc(100% + 32px);
+
+    .mat-mdc-option{
+        border-bottom: 1px solid #212427;
+
+        .mdc-list-item__primary-text{
+					color: white !important;
+        }
+
+        mat-pseudo-checkbox {
+          display: none;
+        }
+    }
+
+
+}
+
+.small-input-inner-shadow{
+	.mat-mdc-select-arrow{
+		color: white;
+	}
+}
+
+//color of options in select
+.mat-mdc-select-panel .mdc-list-item__primary-text,
+.mat-mdc-select:not(.disable-custom-format) .mat-mdc-select-min-line {
+    color: white !important;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+
+}

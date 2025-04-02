@@ -1,0 +1,243 @@
+@use 'src/styles.scss';
+
+.screenshots-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+
+  .screenshots-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    width: 100%;
+    margin: 30px 0px;
+    background: url('../../../../assets/images/carriers/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @include styles.fluid('height', styles.$mobile-xs, styles.$desktop-hd, 180px, 430px);
+
+    h2 {
+      margin-left: 8px;
+      letter-spacing: 0.06vw;
+      width: 1164px;
+      font-size: 50px;
+    }
+
+    @include styles.desktop-hd {
+      background-position: 17% 50%;
+      background-size: 150%;
+      h2 {
+        font-size: 5.2vw;
+        margin-left: 7vw;
+      }
+    }
+
+    @include styles.mobile {
+      margin: 0px;
+    }
+
+    @include styles.desktop-4k {
+      h2 {
+        font-size: 3.45vw;
+        width: 100%;
+        margin-left: 10.2vw;
+      }
+    }
+  }
+
+  .screenshots-row {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    @include styles.desktop {
+      flex-direction: column;
+    }
+
+    .screenshots-row-specialbox {
+      display: flex;
+      flex-direction: column;
+      height: 663px;
+      width: 388px;
+
+      @include styles.mobile {
+        width: 350px;
+        height: 500px;
+      }
+
+      @include styles.desktop {
+        margin: 0px 10px 140px 10px;
+      }
+
+      .screenshots-row-minibox:first-child {
+        margin-bottom: 10px;
+        flex: 1;
+      }
+
+      .screenshots-row-minibox:last-child {
+        flex: 0 0 200px;
+      }
+
+      .screenshots-row-minibox {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background: #0e1318;
+        margin: 0px 10px;
+        padding: 0px 10px;
+        box-sizing: border-box;
+        @include styles.desktop {
+          margin: 0px;
+        }
+
+        h2 {
+          margin: 30px auto 0px auto;
+          max-width: 294px;
+          @include styles.mobile {
+            margin: 30px auto 10px auto;
+          }
+        }
+
+        p {
+          font-family: Avenir Next;
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 0;
+          line-height: 21px;
+          text-align: center;
+          max-width: 335px;
+          margin: auto;
+        }
+
+        img {
+          max-width: 240px;
+          height: auto;
+          margin: auto;
+
+          @include styles.mobile {
+            margin: 20px auto;
+          }
+        }
+      }
+
+      .flex-row {
+        display: flex;
+        flex-direction: row;
+
+        > div:first-child {
+          flex: 0 0 100px;
+          margin-left: 10px;
+          font-family: Avenir Next;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0;
+          line-height: 17px;
+          text-align: center;
+        }
+
+        > div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            max-width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    .screenshots-row-box {
+      display: flex;
+      flex-direction: column;
+      background: #0e1318;
+      height: 663px;
+      width: 388px;
+      margin: 0px 10px;
+      padding: 0px 10px;
+      box-sizing: border-box;
+
+      @include styles.desktop {
+        margin: 15px 10px;
+      }
+
+      @include styles.mobile {
+        width: 350px;
+        height: 500px;
+      }
+
+      .medium-img {
+        max-width: 280px;
+        margin: auto;
+
+        @include styles.mobile {
+          max-height: 180px;
+        }
+      }
+
+      .small-img {
+        max-width: 228px;
+        margin: auto;
+
+        @include styles.mobile {
+          max-height: 180px;
+        }
+      }
+
+      h2 {
+        max-width: 294px;
+        color: styles.$lighter-color;
+        font-family: Avenir;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 36px;
+        text-align: center;
+        margin: 30px auto 0px auto;
+
+        @include styles.fluid('font-size', styles.$mobile-xs, styles.$desktop-hd, 26px, 29px);
+        @include styles.mobile {
+          margin: 30px auto 10px auto;
+        }
+      }
+
+      h3 {
+        max-width: 294px;
+        color: styles.$lighter-color;
+        font-family: Avenir;
+        font-size: 18px;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 10px auto 10px auto;
+
+        @include styles.fluid('line-height', styles.$mobile-xs, styles.$desktop-hd, 26px, 36px);
+      }
+
+      p {
+        font-family: Avenir Next;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 21px;
+        text-align: center;
+        max-width: 335px;
+        margin: auto;
+      }
+
+      img {
+        max-height: 480px;
+        object-fit: contain;
+
+        @include styles.mobile {
+          max-height: 340px;
+        }
+      }
+    }
+  }
+}

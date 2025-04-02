@@ -1,0 +1,352 @@
+@use 'src/styles.scss';
+@use '../../styles/colors';
+@use '../../styles/font';
+@use '../../styles/variables';
+
+.app-factura-emisor-conceptos {
+  max-width: 700px;
+  min-width: 700px;
+  padding: 0 1rem 0.5rem;
+  color: #ededed;
+
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
+  .concepto-table-wrapper {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+    background: #0a0f14;
+
+    &__header {
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      @media (max-width: variables.$small) {
+        padding: 0 16px;
+      }
+    }
+
+    &__title {
+      margin: 0;
+    }
+
+    &__search {
+      display: flex;
+      align-items: center;
+    }
+
+    &__icon-wrapper {
+      height: 46px;
+      width: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__icon {
+      color: inherit;
+    }
+
+    &__search-input {
+      font-size: font.$fs-normal;
+      height: 32px;
+      border: 0;
+      border-bottom: 1px solid colors.$grey;
+      outline: none;
+
+      @media (max-width: variables.$small) {
+        width: 150px;
+      }
+
+      &:focus {
+        border-bottom: 2px solid colors.$blue;
+      }
+    }
+
+    &__button {
+      box-shadow: none;
+      background-color: inherit;
+      width: 46px;
+      height: 46px;
+      color: colors.$grey;
+
+      &:hover {
+        background-color: colors.$black-08;
+        color: colors.$blue;
+      }
+    }
+
+    .mat-mdc-table .mat-mdc-header-cell > div {
+      justify-content: unset;
+    }
+  }
+
+  .concepto-table {
+    &__content {
+      overflow-x: scroll;
+      position: relative;
+      margin-bottom: 0;
+    }
+
+    &__table {
+    }
+
+    &__table-checkbox {
+      width: 32px;
+      padding-left: 24px;
+    }
+
+    &__table-header {
+      font-size: font.$fs-small;
+      padding: 0 8px;
+    }
+
+    &__table-body {
+      font-size: font.$fs-small;
+      padding: 0 8px;
+      text-align: left;
+    }
+
+    &__content-badge {
+      width: fit-content;
+      border-radius: 32px;
+      color: colors.$white;
+      text-align: center;
+      padding: 5px 10px;
+      font-size: 13px;
+      box-sizing: border-box;
+      font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+      font-weight: font.$fw-lighter;
+      line-height: 1.75;
+      letter-spacing: 0.457px;
+
+      &::first-letter {
+        text-transform: uppercase;
+      }
+    }
+
+    &__paginator {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .total {
+        font-family: 'Avenir';
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        color: #ededed;
+      }
+
+      .ngx-pagination {
+        margin-bottom: 0;
+        padding-left: 0;
+
+        .pagination-previous,
+        .current,
+        a,
+        button,
+        .pagination-next {
+          font-family: 'Avenir';
+          font-size: 12px;
+          font-weight: 500;
+          color: #ededed;
+          text-transform: uppercase;
+        }
+
+        .pagination-previous.disabled,
+        .pagination-next.disabled {
+          color: #494c50;
+        }
+
+        a:hover {
+          color: black;
+        }
+
+        li.current {
+          background: unset;
+          font-weight: 500;
+          text-decoration: underline;
+        }
+
+        .pagination-previous.disabled::before,
+        .pagination-previous a::before,
+        .pagination-next.disabled::after,
+        .pagination-next a::after {
+          font-family: styles.$icomoon-font-family !important;
+          font-style: normal;
+          font-feature-settings: normal;
+          font-variant: normal;
+          text-transform: none;
+          line-height: 1;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          font-size: 14px;
+        }
+
+        .pagination-previous.disabled::before,
+        .pagination-previous a::before {
+          content: '' !important;
+          transform: translateY(1px);
+        }
+
+        .pagination-next.disabled::after,
+        .pagination-next a::after {
+          content: '';
+          transform: translateY(1px);
+        }
+      }
+
+      .mat-form-field-outline:first-child {
+        border: 1px solid #1c232a;
+        box-shadow: inset -2px -2px 4px #1c232a, inset 4px 4px 4px #02070b;
+        border-radius: 4px;
+      }
+
+      .mat-form-field-appearance-outline .mat-form-field-infix {
+        width: 3rem;
+        padding: 0.8rem 0 0.5rem;
+        border-top: unset;
+      }
+
+      .mat-form-field-wrapper {
+        padding-bottom: 0;
+      }
+
+      .mat-mdc-select-value {
+        color: #ededed;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        text-align: center;
+      }
+
+      .mat-form-field-appearance-outline .mat-mdc-select-arrow-wrapper {
+        transform: unset;
+      }
+
+      .mat-mdc-select-arrow {
+        color: #ededed;
+      }
+
+      mat-label {
+        margin-right: 1em;
+        font-family: 'Avenir';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        color: #ededed;
+      }
+    }
+  }
+
+  .impuestos-table {
+    width: 100%;
+
+    th {
+      font-weight: 500;
+      text-align: left;
+
+      &.center {
+        text-align: center;
+      }
+
+      &.right {
+        text-align: right;
+      }
+    }
+
+    td {
+      padding: 3px 0;
+      text-align: left;
+
+      &.center {
+        text-align: center;
+      }
+
+      &.right {
+        text-align: right;
+      }
+    }
+  }
+
+  .impuestos-table {
+    thead th {
+      font-family: 'Avenir';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 15px;
+      line-height: 20px;
+      color: #5c5f64;
+    }
+
+    tbody td {
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0.5px;
+      color: #ededed;
+    }
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem 2rem;
+  }
+
+  .grid-fill {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem 2rem;
+  }
+
+  .grid-2-2-1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 1rem 2rem;
+  }
+
+  section {
+    margin-bottom: 2rem;
+
+    > h6 {
+      font-family: 'Avenir';
+      font-style: normal;
+      font-size: 20px;
+      color: #ededed;
+    }
+
+    > div {
+      padding-top: 1.5rem;
+
+      > div {
+        label {
+          display: block;
+          margin-bottom: 4px;
+          color: rgba(0, 0, 0, 0.6);
+        }
+      }
+    }
+  }
+
+  mat-form-field {
+    .textarea {
+      .mat-form-field-wrapper {
+        padding-bottom: unset;
+      }
+    }
+
+    mat-progress-bar {
+      bottom: 0px;
+      position: absolute;
+      width: calc(100% + 16px);
+      height: 2px;
+      left: -9px;
+    }
+  }
+}

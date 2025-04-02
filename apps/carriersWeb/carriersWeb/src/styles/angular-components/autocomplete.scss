@@ -1,0 +1,21 @@
+.bego-address-autocomplete {
+  width: 100%;
+}
+
+.mat-mdc-autocomplete-panel {
+  --mat-autocomplete-background-color: #0b1117;
+  --mat-autocomplete-container-elevation-shadow: inset 2px 2px 5px #1a1e24, inset -2px -2px 4px #050d14;
+  --mat-autocomplete-container-shape: 8px;
+
+  .mat-mdc-option:not(:last-child) {
+    border-bottom: 1px solid #212427;
+  }
+
+  .mdc-list-item__primary-text {
+    --mat-option-selected-state-label-text-color: white;
+  }
+
+  .mat-mdc-option.mat-selected:not(.mat-active):not(:hover) {
+    background-color: #1c232a;
+  }
+}

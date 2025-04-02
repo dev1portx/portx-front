@@ -1,0 +1,96 @@
+@use 'src/styles.scss';
+
+.map-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  transform: translateY(35%);
+
+  .map {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.25);
+    background: url('../../../assets/lottie/animated-map.jpg');
+    background-size: 53% 89%;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 48% 48%;
+  }
+
+  @include styles.mobile {
+    display: none;
+  }
+}
+
+.customs-agent-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  box-sizing: border-box;
+
+  .customs-agent-header {
+    position: relative;
+    min-height: 1000px;
+
+    @include styles.fluid('min-height', styles.$mobile-xxs, styles.$mobile, 500px, 1000px);
+
+    .customs-agent-pic {
+      position: absolute;
+      top: -110px;
+      left: 50%;
+      transform: translateX(-50%);
+      max-width: 800px;
+      z-index: 1;
+
+      @include styles.mobile {
+        width: 100%;
+      }
+
+      @include styles.mobile-xs {
+        top: -88px;
+      }
+
+      img {
+        @include styles.mobile {
+          object-fit: contain;
+          width: 100%;
+        }
+      }
+
+      .customs-agent-title {
+        position: absolute;
+        @include styles.fluid('bottom', styles.$mobile-ms, styles.$desktop-fhd, -40px, 140px);
+        @include styles.fluid('left', styles.$mobile, styles.$desktop-fhd, 40px, -200px);
+        @include styles.mobile {
+          right: 40px;
+        }
+
+        h1 {
+          color: styles.$lighter-color;
+          font-family: 'Keep Calm';
+          letter-spacing: 2px;
+          line-height: 90px;
+
+          @include styles.fluid('font-size', styles.$mobile, styles.$desktop-fhd, 50px, 100px);
+          @include styles.fluid('margin-bottom', styles.$mobile, styles.$desktop-fhd, 0px, 33.5px);
+        }
+
+        p {
+          font-family: Avenir Next;
+          letter-spacing: 1.2px;
+          font-weight: 400;
+          line-height: 32px;
+          text-align: justify;
+          max-width: 580px;
+          @include styles.fluid('font-size', styles.$mobile, styles.$desktop-fhd, 16px, 25px);
+          @include styles.fluid('margin-left', styles.$mobile, styles.$desktop-fhd, 0px, 160px);
+          @include styles.fluid('margin-top', styles.$mobile, styles.$desktop-fhd, 0px, 50px);
+        }
+      }
+    }
+  }
+}

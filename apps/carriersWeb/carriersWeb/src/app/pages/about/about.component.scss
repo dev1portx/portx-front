@@ -1,0 +1,49 @@
+@use 'src/styles.scss';
+
+.about-container {
+  position: relative;
+  top: -108px;
+  width: 100%;
+  min-height: 1500px;
+  background: url('../../../assets/images/about/about-map-widescreen.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  box-sizing: border-box;
+
+  @include styles.fluid('padding-top', styles.$desktop, styles.$desktop-qhd, 160px, 500px);
+  @include styles.fluid('padding-left', styles.$desktop, styles.$desktop-fhd, 40px, 150px);
+  @include styles.fluid('padding-right', styles.$desktop, styles.$desktop-fhd, 40px, 150px);
+
+  @include styles.mobile {
+    background-size: 200%;
+    background-position: top;
+  }
+}
+
+.lottie-map {
+  position: absolute;
+  width: 100%;
+  height: calc(100vw / 1.43);
+  top: 0;
+  left: 0;
+  overflow: hidden;
+
+  @include styles.mobile {
+    height: 100%;
+  }
+
+  ng-lottie {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: center;
+    z-index: 1;
+    top: 0px;
+
+    @include styles.mobile {
+      transform: scale(2);
+      @include styles.fluid('top', styles.$mobile-xxs, styles.$mobile, 113px, 275px);
+    }
+  }
+}

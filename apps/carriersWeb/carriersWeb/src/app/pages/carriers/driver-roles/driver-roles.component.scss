@@ -1,0 +1,77 @@
+@use 'src/styles.scss';
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include styles.fluid('margin-bottom', styles.$mobile-xs, styles.$desktop-fhd, 50px, 200px);
+
+  .description-header {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+      font-family: Avenir;
+      font-size: 60px;
+      font-weight: 900;
+      letter-spacing: 0;
+      line-height: 90px;
+      margin: 0;
+      margin-bottom: -10px;
+      text-align: center;
+
+      @include styles.fluid('font-size', styles.$mobile, styles.$desktop-fhd, 34px, 60px);
+      @include styles.fluid('margin-bottom', styles.$mobile-xs, styles.$desktop-fhd, -30px, -10px);
+    }
+
+    img {
+      object-fit: contain;
+      max-height: 100%;
+      max-width: 80%;
+      margin: auto;
+    }
+  }
+
+  .description-body {
+    display: flex;
+    flex-direction: row;
+
+    @include styles.mobile {
+      flex-direction: column;
+    }
+
+    > div {
+      flex: 1;
+      max-width: 400px;
+      background: #0e1318;
+      padding: 20px;
+      margin: 20px;
+      @include styles.fluid('margin-top', styles.$mobile-xs, styles.$desktop-hd, 6px, 20px);
+      @include styles.fluid('margin-bottom', styles.$mobile-xs, styles.$desktop-hd, 6px, 20px);
+      @include styles.fluid('padding-top', styles.$mobile-xs, styles.$desktop-hd, 16px, 20px);
+      @include styles.fluid('padding-bottom', styles.$mobile-xs, styles.$desktop-hd, 16px, 20px);
+
+      h2 {
+        color: styles.$lighter-color;
+        font-family: Avenir;
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 0;
+        line-height: 36px;
+        text-align: center;
+        @include styles.fluid('font-size', styles.$mobile-xs, styles.$desktop-hd, 25px, 30px);
+      }
+
+      p {
+        font-family: Avenir Next;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 24px;
+        text-align: center;
+      }
+    }
+  }
+}

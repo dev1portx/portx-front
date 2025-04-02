@@ -1,0 +1,16 @@
+<mat-card class="factura-table-wrapper">
+  <mat-card-content class="factura-table__content">
+    <bego-table-multiple-selection
+      (selectorRowsCheckEmitter)="invoicesTable.rowSelected($event)"
+      [selectRowCheck]="invoicesTable.selectRow"
+      [loading]="loading"
+      [values]="invoicesTable.values"
+      [columns]="invoicesTable.columns"
+      [actions]="invoicesTable.actions"
+      [page]="pageUI"
+      [debounce]="1000"
+      (pageChangeEmitter)="changingPage($event)"
+      (selectedActionEmitter)="invoicesTable.selectingAction($event)"
+      (reloadTable)="refresh.emit()"></bego-table-multiple-selection>
+  </mat-card-content>
+</mat-card>

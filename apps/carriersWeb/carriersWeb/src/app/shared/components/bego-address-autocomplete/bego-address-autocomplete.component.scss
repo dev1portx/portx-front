@@ -1,0 +1,39 @@
+@use 'src/styles.scss';
+
+.bego-direction-wrapper {
+  width: 100%;
+
+  form {
+    width: 100%;
+  }
+}
+
+::ng-deep .bego-address-autocomplete-option-pin {
+  .mdc-list-item__primary-text {
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 18px;
+      width: 18px;
+      margin-right: 8px;
+    }
+
+    font-family: Avenir;
+    font-weight: 500;
+    font-size: 14px;
+    color: styles.$color-font-grey;
+  }
+}
+
+.bego-address-autocomplete {
+  &.readonly ::ng-deep {
+    input {
+      cursor: default;
+    }
+
+    .mat-form-field-underline {
+      opacity: 0;
+    }
+  }
+}

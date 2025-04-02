@@ -1,0 +1,138 @@
+@use "./colors";
+
+//== Viewports
+
+$extra-small: 576px;
+$small: 576px;
+$medium: 768px;
+$normal: 1024px;
+$large: 992px;
+$extra-large: 1200px;
+
+//== NotificationBar
+
+$sidebar-width: 230px;
+$sidebar-font-color: colors.$gray-08;
+$sidebar-font-color-active: colors.$dark-grey;
+$sidebar-background-color-active: colors.$blue-white;
+$sidebar-background-color-hover: colors.$blue-white;
+$sidebar-icon-color-active: colors.$blue;
+$sidebar-icon-color: colors.$gray-06;
+$sidebar-title-color: $sidebar-font-color;
+$sidebar-circle-color: colors.$light-grey;
+
+//== Material Card
+//
+
+$card-font-color: colors.$dark-grey;
+$card-title-font-color: colors.$grey;
+
+//== Material Toolbar
+
+$toolbar-title-font-color: colors.$light-grey;
+$toolbar-button-font-color: colors.$white;
+$toolbar-button-background-color: colors.$pink;
+$toolbar-button-background-color-active: colors.$dark-pink;
+
+//== Material NotificationBar Content
+
+$sidebar-content-padding: 48px;
+
+//== Material Tabs
+
+$tabs-header-font-color: colors.$light-grey;
+$tabs-header-font-color-active: colors.$blue;
+$tabs-ink-bar-color: colors.$blue;
+
+//== Apex Chart X axis tooltip
+
+$chart-tooltip-background-color: colors.$blue;
+$chart-tooltip-border-color: colors.$blue;
+$chart-tooltip-font-color: colors.$white;
+
+//== Scroll bar
+
+$scrollbar-track-color: colors.$light-grey;
+$scrollbar-track-piece-color: colors.$white;
+$scrollbar-thumb-color: colors.$light-grey;
+$scrollbar-corner-color: colors.$light-grey;
+
+//== Header
+
+$header-background-color: colors.$blue;
+$header-height: 64px;
+$header-button-background-color: colors.$blue;
+$header-button-background-color-hover: colors.$black-08;
+$header-button-font-color: colors.$white;
+$header-title-font-color: colors.$white;
+
+//== Footer
+
+$footer-height: 48px;
+$footer-width: calc(100% - #{$sidebar-content-padding});
+$footer-link-color: colors.$blue;
+$footer-icon-color: colors.$gray-06;
+$footer-icon-background-color-hover: colors.$black-08;
+
+//== Settings menu element
+
+$settings-button-background-color: colors.$white;
+$settings-button-background-color-hover: colors.$blue;
+$settings-button-color: colors.$light-grey;
+$settings-button-color-hover: colors.$white-35;
+$settings-menu-font-color: colors.$dark-grey;
+$settings-menu-background-color-hover: colors.$blue-white;
+
+// =============================================================================
+// Colors
+// =============================================================================
+
+$background-dark: #040b11;
+$input-label: #89898a;
+$separator: #343434;
+$separator-profile: #979797;
+
+// =============================================================================
+// Botons
+// =============================================================================
+
+$color-facebook: rgba(59, 89, 153, 1);
+$color-facebook-light: rgba(59, 89, 153, 1);
+$color-facebook-dark: rgba(59, 89, 153, 1);
+
+$color-email: rgb(255, 255, 255);
+$color-email-light: rgb(255, 255, 255);
+$color-email-dark: rgb(255, 255, 255);
+
+$color-phone: transparent;
+$color-phone-light: #cbe346;
+$color-phone-dark: #cbe346;
+
+$color-yellow: #FFE000;
+
+$background-btn-active: linear-gradient(
+  180deg,
+  #ffd200 0%,
+  #FFE000 100%
+) !important;
+
+// =============================================================================
+// Fonts
+// =============================================================================
+$color-font-white: #ededed;
+$color-font-grey: #c1c7d0;
+
+// =============================================================================
+// Media Queries
+// =============================================================================
+
+$desktop-hd: 1200px;
+$desktop: 992px;
+$mobile: 768px;
+$mobile-xs: 576px;
+
+// =============================================================================
+// Modal
+// =============================================================================
+
+$modal-background: #10161c;
