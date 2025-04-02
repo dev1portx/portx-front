@@ -30,12 +30,12 @@
         ],
         "styles": [
           "apps/carriersWeb/carriersWeb/src/styles.scss",
-          "node_modules/leaflet/dist/leaflet.css",
-          "node_modules/leaflet-draw/dist/leaflet.draw.css"
+          "apps/carriersWeb/carriersWeb/node_modules/leaflet/dist/leaflet.css",
+          "apps/carriersWeb/carriersWeb/node_modules/leaflet-draw/dist/leaflet.draw.css"
         ],
         "scripts": [
-          "node_modules/leaflet/dist/leaflet.js",
-          "node_modules/leaflet-draw/dist/leaflet.draw.js"
+          "apps/carriersWeb/carriersWeb/node_modules/leaflet/dist/leaflet.js",
+          "apps/carriersWeb/carriersWeb/node_modules/leaflet-draw/dist/leaflet.draw.js"
         ],
         "stylePreprocessorOptions": {
           "includePaths": ["."]
